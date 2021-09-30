@@ -11,7 +11,7 @@
 
 <script>
 import { mapActions, mapGetters } from "vuex";
-import ProductsService from "@/resources/products/services";
+import ProductsService from "~/components/products/services";
 
 export default {
   name: "AddAllButton",

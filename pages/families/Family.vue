@@ -32,7 +32,7 @@
 </template>
 
 <script>
-import FamilyCard from "@/resources/families/components/FamilyCard";
+import FamilyCard from "~/components/families/components/FamilyCard";
 import VueContext from 'vue-context';
 import 'vue-context/dist/css/vue-context.css';
 import { mapActions, mapGetters, mapState } from "vuex";
@@ -112,11 +112,11 @@ export default {
     getFamilyIcon(family) {
       switch(family) {
         case 'Alimentos e bebidas':
-          return '<img src="' + require(`@/assets/images/maca.svg`) + '" alt="*" width="16">'
+          return '<img src="' + require(`~/assets/images/maca.svg`) + '" alt="*" width="16">'
         case 'Embalagens':
           return '<i class="feather icon-shopping-bag mr-25"></i>'
         case 'Limpeza':
-          return '<img src="' + require(`@/assets/images/window-cleaner.svg`) + '" alt="*" width="16">'
+          return '<img src="' + require(`~/assets/images/window-cleaner.svg`) + '" alt="*" width="16">'
         case 'Utensílios':
           return '<i class="fa fa-cutlery mr-25"></i>'
       }

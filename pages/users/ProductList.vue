@@ -61,9 +61,9 @@
 </template>
 
 <script>
-import ProductListResume from "@/resources/users/components/ProductListResume";
-import ProductListProducts from "@/resources/users/components/ProductListProducts";
-import ProductListMobile from "@/resources/users/components/ProductListMobile";
+import ProductListResume from "~/components/users/components/ProductListResume";
+import ProductListProducts from "~/components/users/components/ProductListProducts";
+import ProductListMobile from "~/components/users/components/ProductListMobile";
 import { mapState, mapActions } from "vuex";
 
 export default {

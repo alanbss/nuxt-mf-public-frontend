@@ -1,4 +1,4 @@
-import ContactService from '@/resources/users/services/ContactService'
+import ContactService from '~/components/users/services/ContactService'
 
 const SET_CONTACT_STATUS = 'SET_CONTACT_STATUS'
 

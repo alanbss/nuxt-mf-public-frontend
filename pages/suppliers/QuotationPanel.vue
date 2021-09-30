@@ -292,12 +292,12 @@
 
 <script>
 import { mapState, mapActions } from "vuex";
-import VQuotationPanelProducts from "@/resources/quotations/Components/VQuotationPanelProducts";
-import VQuotationPanelClient from "@/resources/quotations/Components/VQuotationPanelClient";
-import VQuotationPanelAnswered from "@/resources/quotations/Components/VQuotationPanelAnswered";
-import VQuotationPanelOC from "@/resources/quotations/Components/VQuotationPanelOC";
-import VQuotationPanelDirectOrder from "@/resources/quotations/Components/VQuotationPanelDirectOrder";
-import RefuseQuotationModal from "@/resources/suppliers/components/RefuseQuotationModal";
+import VQuotationPanelProducts from "~/components/quotations/Components/VQuotationPanelProducts";
+import VQuotationPanelClient from "~/components/quotations/Components/VQuotationPanelClient";
+import VQuotationPanelAnswered from "~/components/quotations/Components/VQuotationPanelAnswered";
+import VQuotationPanelOC from "~/components/quotations/Components/VQuotationPanelOC";
+import VQuotationPanelDirectOrder from "~/components/quotations/Components/VQuotationPanelDirectOrder";
+import RefuseQuotationModal from "~/components/suppliers/components/RefuseQuotationModal";
 import timeFormatter from "@/mixins/timeFormatter";
 
 import VueContext from 'vue-context';

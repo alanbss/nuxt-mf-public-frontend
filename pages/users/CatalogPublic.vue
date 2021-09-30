@@ -187,8 +187,8 @@
 
 <script>
 import { mapState, mapActions } from "vuex";
-import CatalogPublicMobile from "@/resources/users/components/CatalogPublicMobile";
-import ProductPublicCard from "@/resources/products/components/ProductPublicCard";
+import CatalogPublicMobile from "~/components/users/components/CatalogPublicMobile";
+import ProductPublicCard from "~/components/products/components/ProductPublicCard";
 
 export default {
   name: "CatalogPublic",

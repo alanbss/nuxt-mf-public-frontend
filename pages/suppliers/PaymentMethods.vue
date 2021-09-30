@@ -60,7 +60,7 @@
 </template>
 
 <script>
-import PaymentMethod from "@/resources/suppliers/components/PaymentMethod";
+import PaymentMethod from "~/components/suppliers/components/PaymentMethod";
 import { mapActions, mapState } from "vuex";
 
 export default {

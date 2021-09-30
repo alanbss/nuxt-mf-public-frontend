@@ -41,10 +41,10 @@
 </template>
 
 <script>
-import ProductCard from "@/resources/products/components/ProductCard";
-import ProductTypeService from "@/resources/productTypes/services/";
-import ProductTypesList from "@/resources/categories/components/ProductTypesList";
-import VProductPaginator from "@/resources/products/components/VProductPaginator";
+import ProductCard from "~/components/products/components/ProductCard";
+import ProductTypeService from "~/components/productTypes/services/";
+import ProductTypesList from "~/components/categories/components/ProductTypesList";
+import VProductPaginator from "~/components/products/components/VProductPaginator";
 import { mapState, mapActions, mapGetters } from "vuex";
 
 export default {

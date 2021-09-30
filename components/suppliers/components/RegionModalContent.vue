@@ -30,8 +30,8 @@
 </template>
 
 <script>
-import RegionService from "@/resources/suppliers/services/regions";
-import RegionCitiesService from "@/resources/suppliers/services/regionCities";
+import RegionService from "~/components/suppliers/services/regions";
+import RegionCitiesService from "~/components/suppliers/services/regionCities";
 
 export default {
   name: "RegionModalContent",

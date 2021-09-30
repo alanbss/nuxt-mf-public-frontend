@@ -457,12 +457,12 @@ import UnloggedBanner from "~/components/home/UnloggedBanner";
 import OpenQuotesBanner from "~/components/home/OpenQuotesBanner";
 import ToDoNowBanner from "~/components/home/ToDoNowBanner";
 import OrdersBanner from "~/components/home/OrdersBanner";
-import ProductCard from "@/resources/products/components/ProductCard";
-import SuppliersService from "@/resources/suppliers/services/index";
-import ProductsService from "@/resources/products/services/index";
-import SupplierCard from "@/resources/suppliers/components/SupplierCard";
-import PartnerModal from "@/resources/users/components/PartnerModal";
-import ProductInSaleCard from "@/resources/products/components/ProductInSaleCard";
+import ProductCard from "~/components/products/components/ProductCard";
+import SuppliersService from "~/components/suppliers/services/index";
+import ProductsService from "~/components/products/services/index";
+import SupplierCard from "~/components/suppliers/components/SupplierCard";
+import PartnerModal from "~/components/users/components/PartnerModal";
+import ProductInSaleCard from "~/components/products/components/ProductInSaleCard";
 import { mapGetters, mapActions, mapState } from "vuex";
 
 export default {

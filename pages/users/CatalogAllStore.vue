@@ -2300,11 +2300,11 @@
 
 <script>
 import { mapState, mapActions } from "vuex";
-import StoreFamiliesModal from "@/resources/users/components/StoreFamiliesModal";
-import ProductCard from "@/resources/products/components/ProductCard";
-import FiltersSidebarStore from "@/resources/productTypes/components/FiltersSidebarStore";
-import ProductsFilterStore from "@/resources/productTypes/components/ProductsFilterStore";
-import AddAllButton from "@/resources/products/components/AddAllButton";
+import StoreFamiliesModal from "~/components/users/components/StoreFamiliesModal";
+import ProductCard from "~/components/products/components/ProductCard";
+import FiltersSidebarStore from "~/components/productTypes/components/FiltersSidebarStore";
+import ProductsFilterStore from "~/components/productTypes/components/ProductsFilterStore";
+import AddAllButton from "~/components/products/components/AddAllButton";
 import VFooter from "@/layouts/main/components/VFooter";
 import "vue-context/dist/css/vue-context.css";
 
@@ -3121,7 +3121,7 @@ export default {
         case "Alimentos e bebidas":
           return (
             '<img src="' +
-            require(`@/assets/images/maca.svg`) +
+            require(`~/assets/images/maca.svg`) +
             '" alt="*" width="16">'
           );
         case "Embalagens":
@@ -3129,7 +3129,7 @@ export default {
         case "Limpeza":
           return (
             '<img class="mr-25" src="' +
-            require(`@/assets/images/window-cleaner.svg`) +
+            require(`~/assets/images/window-cleaner.svg`) +
             '" alt="*" width="16">'
           );
         case "Utensílios":

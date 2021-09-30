@@ -1,7 +1,7 @@
 import * as types from './mutations-types'
 import PaginationService from '@/services/pagination'
-import ProductService from '@/resources/products/services/'
-import CategoryService from '@/resources/categories/services/'
+import ProductService from '~/components/products/services/'
+import CategoryService from '~/components/categories/services/'
 
 export default {
   getProducts: async ({ commit, rootGetters }) => {

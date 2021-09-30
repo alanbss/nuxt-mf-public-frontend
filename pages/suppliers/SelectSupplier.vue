@@ -612,11 +612,11 @@ span.capitalize {
 </style>
 
 <script>
-import SuppliersService from "@/resources/suppliers/services/index";
-import SupplierCard from "@/resources/suppliers/components/SupplierCard";
-import SuppliersFamiliesModal from "@/resources/users/components/SuppliersFamiliesModal";
+import SuppliersService from "~/components/suppliers/services/index";
+import SupplierCard from "~/components/suppliers/components/SupplierCard";
+import SuppliersFamiliesModal from "~/components/users/components/SuppliersFamiliesModal";
 import VFooter from "@/layouts/main/components/VFooter";
-import ProductInSaleCard from "@/resources/products/components/ProductInSaleCard";
+import ProductInSaleCard from "~/components/products/components/ProductInSaleCard";
 import { mapGetters } from "vuex";
 
 export default {
@@ -931,11 +931,11 @@ export default {
     getFamilyIcon(family) {
       switch(family) {
         case 'alimentos e bebidas':
-          return '<img src="' + require(`@/assets/images/maca.svg`) + '" alt="*" width="16">'
+          return '<img src="' + require(`~/assets/images/maca.svg`) + '" alt="*" width="16">'
         case 'embalagens':
           return '<i class="feather icon-shopping-bag mr-25"></i>'
         case 'limpeza':
-          return '<img class="mr-25" src="' + require(`@/assets/images/window-cleaner.svg`) + '" alt="*" width="16">'
+          return '<img class="mr-25" src="' + require(`~/assets/images/window-cleaner.svg`) + '" alt="*" width="16">'
         case 'utensílios':
           return '<i class="fa fa-cutlery mr-25"></i>'
       }

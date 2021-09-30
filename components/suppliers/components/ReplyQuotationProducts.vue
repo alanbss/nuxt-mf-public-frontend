@@ -56,9 +56,9 @@
 
 <script>
 import { mapState, mapActions } from "vuex";
-// import VQuotationPanelProducts from "@/resources/quotations/Components/VQuotationPanelProducts";
-// import VQuotationPanelClient from "@/resources/quotations/Components/VQuotationPanelClient";
-import QuotationProductCard from "@/resources/products/components/QuotationProductCard";
+// import VQuotationPanelProducts from "~/components/quotations/Components/VQuotationPanelProducts";
+// import VQuotationPanelClient from "~/components/quotations/Components/VQuotationPanelClient";
+import QuotationProductCard from "~/components/products/components/QuotationProductCard";
 
 export default {
   data() {

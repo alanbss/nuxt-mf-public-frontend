@@ -132,9 +132,9 @@
 
 <script>
 import { mapState, mapActions } from "vuex";
-import ClientProductQuoteCartService from '@/resources/clients/services/clients.product.quote.cart.services';
-import VProductCard from "@/resources/products/components/ProductCard";
-import ReviewQuoteProductCard from "@/resources/products/components/ReviewQuoteProductCard";
+import ClientProductQuoteCartService from '~/components/clients/services/clients.product.quote.cart.services';
+import VProductCard from "~/components/products/components/ProductCard";
+import ReviewQuoteProductCard from "~/components/products/components/ReviewQuoteProductCard";
 import VFooter from "@/layouts/main/components/VFooter";
 
 export default {

@@ -1,4 +1,4 @@
-import QuotationPricesService from '@/resources/quotations/Services/quotations.prices.services'
+import QuotationPricesService from '~/components/quotations/Services/quotations.prices.services'
 
 const SET_QUOTATION_PRICES = 'SET_QUOTATION_PRICES'
 

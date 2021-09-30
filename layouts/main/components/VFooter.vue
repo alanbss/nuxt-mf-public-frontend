@@ -5,7 +5,7 @@
       <partner-modal :openPopup="openPartner" @update-modal="closePopup" />
       <div v-if="!this.mobileBrowser" class="desktop-footer-custom ">
         <div style="display: flex; flex-direction: column;" >
-          <img src="@/assets/images/logo-horizontal-01.png" height="60px">
+          <img src="~/assets/images/logo-horizontal-01.png" height="60px">
         </div>
           <div style="display: flex; flex-direction: column;" >
             <a style="color: black;" href="javascript:void(0);"> <small>Meu Fornecedor Plataforma Digital LTDA</small></a>
@@ -25,7 +25,7 @@
       </div>
       <div v-else class="mobile-footer-custom">
         <div style="display: flex; flex-direction: column;" >
-          <img src="@/assets/images/logo-horizontal-01.png" height="60px">
+          <img src="~/assets/images/logo-horizontal-01.png" height="60px">
         </div>
           <div>
             <div style="display: flex; flex-direction: column; padding-bottom:10px" >
@@ -50,7 +50,7 @@
 </template>
 
 <script>
-import PartnerModal from "@/resources/users/components/PartnerModal";
+import PartnerModal from "~/components/users/components/PartnerModal";
 export default {
   name: "VFooter",
   data() {

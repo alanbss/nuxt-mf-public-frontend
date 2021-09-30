@@ -83,12 +83,12 @@
 
 <script>
 import Vue from 'vue';
-import PricingResume from "@/resources/suppliers/components/PricingResume";
-import PricingProducts from "@/resources/suppliers/components/PricingProducts";
-import VQuotationPaymentMethodsCard from "@/resources/quotations/Components/VQuotationPaymentMethodsCard";
-import VQuotationDeliveryCard from "@/resources/quotations/Components/VQuotationDeliveryCard";
-import NoPricesModal from "@/resources/suppliers/components/NoPricesModal";
-import PricingProductExpedition from "@/resources/products/components/PricingProductExpedition";
+import PricingResume from "~/components/suppliers/components/PricingResume";
+import PricingProducts from "~/components/suppliers/components/PricingProducts";
+import VQuotationPaymentMethodsCard from "~/components/quotations/Components/VQuotationPaymentMethodsCard";
+import VQuotationDeliveryCard from "~/components/quotations/Components/VQuotationDeliveryCard";
+import NoPricesModal from "~/components/suppliers/components/NoPricesModal";
+import PricingProductExpedition from "~/components/products/components/PricingProductExpedition";
 import { mapState, mapActions } from "vuex";
 import { bus } from "@/main";
 

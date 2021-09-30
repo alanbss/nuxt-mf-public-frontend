@@ -32,7 +32,7 @@
           >
             <img
               class="invert"
-              src="@/assets/images/map.png"
+              src="~/assets/images/map.png"
               style="height: 20px; filter: invert(1)"
             />
             <span style="font-weight: 600"> Definir CEP </span>

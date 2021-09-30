@@ -86,7 +86,7 @@
 
 <script>
 import priceFormatter from "@/mixins/priceFormatter";
-import QuoteProductCard from "@/resources/products/components/QuoteProductCard";
+import QuoteProductCard from "~/components/products/components/QuoteProductCard";
 import HorizontalScroll from 'vue-horizontal-scroll';
 
 import { mapActions, mapState } from "vuex";

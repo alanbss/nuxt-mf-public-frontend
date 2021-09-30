@@ -295,12 +295,12 @@
 import { mapActions, mapGetters, mapState } from "vuex";
 
 import { mask } from "vue-the-mask";
-import VNewSecondaryCharacteristics from "@/resources/products/components/VNewSecondaryCharacteristics";
-import cardTitle from "@/resources/products/mixins/cardTitle";
+import VNewSecondaryCharacteristics from "~/components/products/components/VNewSecondaryCharacteristics";
+import cardTitle from "~/components/products/mixins/cardTitle";
 import LoginDropdown from "~/components/login/LoginDropdown";
-import MailingListModal from "@/resources/users/components/MailingListModal";
-import ZipcodeNotFoundModal from "@/resources/users/components/ZipcodeNotFoundModal";
-import StateService from "@/resources/users/services/StateService";
+import MailingListModal from "~/components/users/components/MailingListModal";
+import ZipcodeNotFoundModal from "~/components/users/components/ZipcodeNotFoundModal";
+import StateService from "~/components/users/services/StateService";
 
 export default {
   name: "ProductCard",
@@ -309,7 +309,7 @@ export default {
       openPopup: false,
       adding: false,
       removing: false,
-      noImageSrc: require(`@/assets/images/Produto-sem-imagem-Meu-Fornecedor.jpg`),
+      noImageSrc: require(`~/assets/images/Produto-sem-imagem-Meu-Fornecedor.jpg`),
       zipcode: undefined,
       userType: 'PJ',
       cityText: "",

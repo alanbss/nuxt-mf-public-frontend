@@ -1,4 +1,4 @@
-import ProductService from '@/resources/products/services/'
+import ProductService from '~/components/products/services/'
 
 const ADD_SUPPLIER_PRODUCT_EXPEDITION = 'ADD_SUPPLIER_PRODUCT_EXPEDITION'
 const SET_SUPPLIER_PRODUCT_EXPEDITION = 'SET_SUPPLIER_PRODUCT_EXPEDITION'

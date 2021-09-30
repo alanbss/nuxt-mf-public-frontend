@@ -31,9 +31,9 @@
 </template>
 
 <script>
-import ProductListResume from "@/resources/users/components/ProductListResume";
-import ProductCard from "@/resources/products/components/ProductCard";
-import AddAllButton from "@/resources/products/components/AddAllButton";
+import ProductListResume from "~/components/users/components/ProductListResume";
+import ProductCard from "~/components/products/components/ProductCard";
+import AddAllButton from "~/components/products/components/AddAllButton";
 import { mapState, mapActions } from "vuex";
 
 export default {

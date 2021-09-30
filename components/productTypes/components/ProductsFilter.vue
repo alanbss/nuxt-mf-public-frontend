@@ -224,8 +224,8 @@
 </style>
 
 <script>
-import ProductTypeService from "@/resources/productTypes/services";
-import FamilyService from "@/resources/families/services";
+import ProductTypeService from "~/components/productTypes/services";
+import FamilyService from "~/components/families/services";
 import VueContext from 'vue-context';
 import 'vue-context/dist/css/vue-context.css';
 import { mapActions, mapState, mapGetters } from "vuex";
@@ -283,11 +283,11 @@ export default {
     getFamilyIcon(family) {
       switch(family) {
         case 'Alimentos e bebidas':
-          return '<img src="' + require(`@/assets/images/maca.svg`) + '" alt="*" width="16">'
+          return '<img src="' + require(`~/assets/images/maca.svg`) + '" alt="*" width="16">'
         case 'Embalagens':
           return '<i class="feather icon-shopping-bag mr-25"></i>'
         case 'Limpeza':
-          return '<img src="' + require(`@/assets/images/window-cleaner.svg`) + '" alt="*" width="16">'
+          return '<img src="' + require(`~/assets/images/window-cleaner.svg`) + '" alt="*" width="16">'
         case 'Utensílios':
           return '<i class="fa fa-cutlery mr-25"></i>'
       }

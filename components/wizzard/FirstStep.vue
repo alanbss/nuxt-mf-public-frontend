@@ -143,7 +143,7 @@ import { cpf } from 'cpf-cnpj-validator';
 import { cnpj } from 'cpf-cnpj-validator';
 
 import stepValidation from "@/mixins/stepValidation";
-import ClientService from '@/resources/clients/services/clients.services'
+import ClientService from '~/components/clients/services/clients.services'
 import LoginDropdown from "~/components/login/LoginDropdown";
 import SignUpModal from "~/components/wizzard/SignUpModal";
 

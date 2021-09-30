@@ -1,5 +1,5 @@
 import * as types from './mutations-types'
-import OrdersService from '@/resources/orders/services/orders.service'
+import OrdersService from '~/components/orders/services/orders.service'
 
 export default {
 

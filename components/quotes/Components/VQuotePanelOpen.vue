@@ -338,11 +338,11 @@
 
 <script>
 import priceFormatter from "@/mixins/priceFormatter";
-import QuoteOpenProductCard from "@/resources/products/components/QuoteOpenProductCard";
-import VQuotePanelSupplierInfoHeader from "@/resources/quotes/Components/VQuotePanelSupplierInfoHeader";
+import QuoteOpenProductCard from "~/components/products/components/QuoteOpenProductCard";
+import VQuotePanelSupplierInfoHeader from "~/components/quotes/Components/VQuotePanelSupplierInfoHeader";
 import VueContext from 'vue-context';
 import 'vue-context/dist/css/vue-context.css';
-// import VTourCard from "@/resources/quotes/Components/VTourCard";
+// import VTourCard from "~/components/quotes/Components/VTourCard";
 
 
 import { mapActions, mapState } from "vuex";

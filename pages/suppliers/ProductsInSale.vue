@@ -451,10 +451,10 @@ span.capitalize {
 </style>
 
 <script>
-import SuppliersService from "@/resources/suppliers/services/index";
-import SalesFamiliesModal from "@/resources/users/components/SalesFamiliesModal";
+import SuppliersService from "~/components/suppliers/services/index";
+import SalesFamiliesModal from "~/components/users/components/SalesFamiliesModal";
 import VFooter from "@/layouts/main/components/VFooter";
-import ProductInSaleCard from "@/resources/products/components/ProductInSaleCard";
+import ProductInSaleCard from "~/components/products/components/ProductInSaleCard";
 import { mapGetters } from "vuex";
 
 export default {

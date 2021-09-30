@@ -1,5 +1,5 @@
 import * as types from './mutations-types'
-import ProductTypeService from '@/resources/productTypes/services/'
+import ProductTypeService from '~/components/productTypes/services/'
 import PaginationService from '@/services/pagination'
 
 export default {

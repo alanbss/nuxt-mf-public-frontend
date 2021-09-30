@@ -44,8 +44,8 @@
 
 <script>
 import { mapState, mapActions } from "vuex";
-import AddAllButton from "@/resources/products/components/AddAllButton";
-import ProductCard from "@/resources/products/components/ProductCard";
+import AddAllButton from "~/components/products/components/AddAllButton";
+import ProductCard from "~/components/products/components/ProductCard";
 
 export default {
   name: "ProductListProducts",

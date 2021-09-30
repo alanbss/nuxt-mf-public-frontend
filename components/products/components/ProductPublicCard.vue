@@ -58,10 +58,10 @@
 <script>
 import { mapActions, mapGetters } from "vuex";
 
-import VNewProductCardTitle from "@/resources/products/components/VNewProductCardTitle";
-import VNewSecondaryCharacteristics from "@/resources/products/components/VNewSecondaryCharacteristics";
-import ProductInfoModal from "@/resources/products/components/ProductInfoModal";
-import cardTitle from "@/resources/products/mixins/cardTitle";
+import VNewProductCardTitle from "~/components/products/components/VNewProductCardTitle";
+import VNewSecondaryCharacteristics from "~/components/products/components/VNewSecondaryCharacteristics";
+import ProductInfoModal from "~/components/products/components/ProductInfoModal";
+import cardTitle from "~/components/products/mixins/cardTitle";
 
 export default {
   name: "ProductPublicCard",
@@ -70,7 +70,7 @@ export default {
       openPopup: false,
       adding: false,
       removing: false,
-      noImageSrc: require(`@/assets/images/Produto-sem-imagem-Meu-Fornecedor.jpg`)
+      noImageSrc: require(`~/assets/images/Produto-sem-imagem-Meu-Fornecedor.jpg`)
     }
   },
   created() {

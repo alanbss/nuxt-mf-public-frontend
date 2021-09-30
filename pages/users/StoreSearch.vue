@@ -53,7 +53,7 @@
           </div>
           <div class="col-5 m-0 pl-0 pr-1" v-if="!show && supplierOfferProducts && supplierOfferProducts.length" style="">
             <button @click="goToOffers()" type="button" class="btn btn-danger w-100" style="padding: 7px 2px;">
-              <img :src="require(`@/assets/images/offers.png`)" alt="*" width="16" height='16'>
+              <img :src="require(`~/assets/images/offers.png`)" alt="*" width="16" height='16'>
               <span class="font-small-3 align-middle"> Ver ofertas</span>
             </button>
           </div>
@@ -76,7 +76,7 @@
       <div class="" v-else style="background: #EDEDED; border-bottom: solid 1px #D5D5D5; margin: -25px -30px 10px -30px;">
         <div class="row" style="padding: 5px 20px;">
           <div class="col-1 m-0 p-0 text-center">
-            <img :src="require(`@/assets/images/avatar-default.png`)" alt="*" width="45" height="45">
+            <img :src="require(`~/assets/images/avatar-default.png`)" alt="*" width="45" height="45">
           </div>
           <div class="col-7 m-0 p-0">
             <h3 class="m-0 font-weight-bold">{{ supplier.user.name }}</h3>
@@ -153,7 +153,7 @@
           </div>
           <div class="m-0 pl-0 pr-1" v-if="supplierOfferProducts && supplierOfferProducts.length" style="flex: 0 0 170px;">
             <button @click="goToOffers()" type="button" class="btn btn-danger w-100" style="padding: 7px 2px;">
-              <img :src="require(`@/assets/images/offers.png`)" alt="*" width="16" height='16'>
+              <img :src="require(`~/assets/images/offers.png`)" alt="*" width="16" height='16'>
               <span class="font-small-3 align-middle"> Ver ofertas</span>
             </button>
           </div>
@@ -247,11 +247,11 @@
 </style>
 
 <script>
-import FamilySearchList from "@/resources/families/components/FamilySearchList";
-import PublicStoreProductCard from "@/resources/products/components/PublicStoreProductCard";
-import SupplierInfoModal from "@/resources/suppliers/components/SupplierInfoModal";
-import StoreFamiliesModal from "@/resources/users/components/StoreFamiliesModal";
-import StoreLocationModal from "@/resources/users/components/StoreLocationModal";
+import FamilySearchList from "~/components/families/components/FamilySearchList";
+import PublicStoreProductCard from "~/components/products/components/PublicStoreProductCard";
+import SupplierInfoModal from "~/components/suppliers/components/SupplierInfoModal";
+import StoreFamiliesModal from "~/components/users/components/StoreFamiliesModal";
+import StoreLocationModal from "~/components/users/components/StoreLocationModal";
 import { mapActions, mapGetters, mapState } from "vuex";
 
 export default {
@@ -540,11 +540,11 @@ export default {
     getFamilyIcon(family) {
       switch(family) {
         case 'Alimentos e bebidas':
-          return '<img src="' + require(`@/assets/images/maca.svg`) + '" alt="*" width="16">'
+          return '<img src="' + require(`~/assets/images/maca.svg`) + '" alt="*" width="16">'
         case 'Embalagens':
           return '<i class="feather icon-shopping-bag mr-25"></i>'
         case 'Limpeza':
-          return '<img class="mr-25" src="' + require(`@/assets/images/window-cleaner.svg`) + '" alt="*" width="16">'
+          return '<img class="mr-25" src="' + require(`~/assets/images/window-cleaner.svg`) + '" alt="*" width="16">'
         case 'Utensílios':
           return '<i class="fa fa-cutlery mr-25"></i>'
       }

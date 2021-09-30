@@ -138,7 +138,7 @@
 <script>
 import { mapActions, mapGetters } from "vuex";
 import { mask } from "vue-the-mask";
-import SupplierService from "@/resources/suppliers/services/index";
+import SupplierService from "~/components/suppliers/services/index";
 import LoginDropdown from "~/components/login/LoginDropdown";
 
 export default {

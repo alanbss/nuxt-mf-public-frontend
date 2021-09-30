@@ -5,7 +5,7 @@
         <div class="row m-0">
           <div class="col-lg-6 d-lg-block d-none text-center align-self-center px-1 py-0">
             <router-link :to="{name: 'home'}">
-              <img src="@/assets/images/mf-login.png" alt />
+              <img src="~/assets/images/mf-login.png" alt />
             </router-link>
             <p
               class="color-mf-verde font-weight-bold px-5 py-1"

@@ -1,4 +1,4 @@
-import ProducTypeService from '@/resources/productTypes/services/'
+import ProducTypeService from '~/components/productTypes/services/'
 
 const CHANGED_VIEW_VOLUMES_DIALOG_STATUS = 'CHANGED_VIEW_VOLUMES_DIALOG_STATUS'
 const SET_VOLUMES = 'SET_VOLUMES'

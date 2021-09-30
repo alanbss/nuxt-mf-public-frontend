@@ -5,7 +5,7 @@
       vs-type="flex" vs-justify="center" vs-w="12">
       <vs-col vs-type="flex" vs-justify="center" vs-align="center" vs-w="12">
         <img
-          :src="require(`@/assets/images/logo-horizontal-01.png`)"
+          :src="require(`~/assets/images/logo-horizontal-01.png`)"
           alt
           width='200'
           class="mb-4"

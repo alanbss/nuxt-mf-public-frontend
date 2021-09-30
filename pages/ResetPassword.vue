@@ -84,7 +84,7 @@
 
 <script>
 import { mapActions } from "vuex";
-import PasswordService from "@/resources/users/services/PasswordService";
+import PasswordService from "~/components/users/services/PasswordService";
 
 export default {
   data() {

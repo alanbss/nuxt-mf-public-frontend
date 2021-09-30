@@ -209,7 +209,7 @@
             </div>
             <div v-else class="col" style="text-align: center;">
               <img
-                src="@/assets/images/avatar-default.png"
+                src="~/assets/images/avatar-default.png"
                 style=" width: 100px; height: 100px;" 
               />
             </div>
@@ -258,7 +258,7 @@
                   :style="{
                     backgroundImage:
                       'url(' +
-                      require('@/assets/images/img-alimentos-e-bebidas.jpg') +
+                      require('~/assets/images/img-alimentos-e-bebidas.jpg') +
                       ')',
                   }"
                 ></div>
@@ -268,7 +268,7 @@
                   :style="{
                     backgroundImage:
                       'url(' +
-                      require('@/assets/images/img-embalagens.jpg') +
+                      require('~/assets/images/img-embalagens.jpg') +
                       ')',
                   }"
                 ></div>
@@ -277,7 +277,7 @@
                   class="services-img"
                   :style="{
                     backgroundImage:
-                      'url(' + require('@/assets/images/img-limpeza.jpg') + ')',
+                      'url(' + require('~/assets/images/img-limpeza.jpg') + ')',
                   }"
                 ></div>
                 <div
@@ -286,7 +286,7 @@
                   :style="{
                     backgroundImage:
                       'url(' +
-                      require('@/assets/images/img-utensilios.jpg') +
+                      require('~/assets/images/img-utensilios.jpg') +
                       ')',
                   }"
                 ></div>
@@ -441,7 +441,7 @@
         :style="{
           color: '#fff',
           background:
-            'url(' + require('@/assets/images/bg-fornecedor.jpg') + ')',
+            'url(' + require('~/assets/images/bg-fornecedor.jpg') + ')',
           backgroundRepeat: 'no-repeat',
           backgroundAttachment: 'fixed',
           backgroundSize: 'cover',
@@ -481,7 +481,7 @@
   </div>
 </template>
 
-<style scoped src="@/assets/css/cover.css"></style>
+<style scoped src="~/assets/css/cover.css"></style>
 
 <style>
 .btn-outline-light {
@@ -525,7 +525,7 @@
 </style>
 
 <script>
-// import FamilyCard from "@/resources/families/components/FamilyCard";
+// import FamilyCard from "~/components/families/components/FamilyCard";
 // import MeuFornecedorBanner from "~/components/home/MeuFornecedorBanner";
 // import ProductListEmptyBanner from "~/components/home/ProductListEmptyBanner";
 
@@ -533,14 +533,14 @@ import { mapState, mapGetters, mapActions, mapMutations } from "vuex";
 import { mask } from "vue-the-mask";
 import carousel from "vue-owl-carousel";
 import LoginDropdown from "~/components/login/LoginDropdown";
-import PartnerModal from "@/resources/users/components/PartnerModal";
-import MailingListModal from "@/resources/users/components/MailingListModal";
-import ZipcodeNotFoundModal from "@/resources/users/components/ZipcodeNotFoundModal";
+import PartnerModal from "~/components/users/components/PartnerModal";
+import MailingListModal from "~/components/users/components/MailingListModal";
+import ZipcodeNotFoundModal from "~/components/users/components/ZipcodeNotFoundModal";
 import NoSuppliersModal from "~/components/cover/NoSuppliersModal";
-import ProductsService from "@/resources/products/services/index";
-import StateService from "@/resources/users/services/StateService";
-import SuppliersService from "@/resources/suppliers/services/index";
-import FamiliesService from "@/resources/families/services/index";
+import ProductsService from "~/components/products/services/index";
+import StateService from "~/components/users/services/StateService";
+import SuppliersService from "~/components/suppliers/services/index";
+import FamiliesService from "~/components/families/services/index";
 
 export default {
   data() {
@@ -564,122 +564,122 @@ export default {
         {
           id: 1,
           name: "Companhia da Terra",
-          photoURL: require("@/assets/images/1.png"),
+          photoURL: require("~/assets/images/1.png"),
         },
         {
           id: 2,
           name: "Galetos Distribuidora",
-          photoURL: require("@/assets/images/2.png"),
+          photoURL: require("~/assets/images/2.png"),
         },
         {
           id: 3,
           name: "Ideal Alimentos",
-          photoURL: require("@/assets/images/3.png"),
+          photoURL: require("~/assets/images/3.png"),
         },
         {
           id: 4,
           name: "Império da Carne",
-          photoURL: require("@/assets/images/4.png"),
+          photoURL: require("~/assets/images/4.png"),
         },
         {
           id: 5,
           name: "J.A. Distribuidora",
-          photoURL: require("@/assets/images/5.png"),
+          photoURL: require("~/assets/images/5.png"),
         },
         {
           id: 6,
           name: "Jean Veleiro",
-          photoURL: require("@/assets/images/6.png"),
+          photoURL: require("~/assets/images/6.png"),
         },
         {
           id: 7,
           name: "Empório Nutall",
-          photoURL: require("@/assets/images/7.png"),
+          photoURL: require("~/assets/images/7.png"),
         },
         {
           id: 8,
           name: "Petisco Distribuidora",
-          photoURL: require("@/assets/images/8.png"),
+          photoURL: require("~/assets/images/8.png"),
         },
         {
           id: 9,
           name: "Sabor Nobre",
-          photoURL: require("@/assets/images/9.png"),
+          photoURL: require("~/assets/images/9.png"),
         },
         {
           id: 10,
           name: "Sammy Gelados",
-          photoURL: require("@/assets/images/10.png"),
+          photoURL: require("~/assets/images/10.png"),
         },
         {
           id: 11,
           name: "Sampa's Brasil",
-          photoURL: require("@/assets/images/11.png"),
+          photoURL: require("~/assets/images/11.png"),
         },
         {
           id: 12,
           name: "Santo Churras",
-          photoURL: require("@/assets/images/12.png"),
+          photoURL: require("~/assets/images/12.png"),
         },
         {
           id: 13,
           name: "Super Baratão",
-          photoURL: require("@/assets/images/13.png"),
+          photoURL: require("~/assets/images/13.png"),
         },
         {
           id: 14,
           name: "Super Boi",
-          photoURL: require("@/assets/images/14.png"),
+          photoURL: require("~/assets/images/14.png"),
         },
         {
           id: 15,
           name: "Talimpo",
-          photoURL: require("@/assets/images/15.png"),
+          photoURL: require("~/assets/images/15.png"),
         },
         {
           id: 16,
           name: "DeMarchi",
-          photoURL: require("@/assets/images/16.png"),
+          photoURL: require("~/assets/images/16.png"),
         },
         {
           id: 17,
           name: "Soluções Produtos de Higiene",
-          photoURL: require("@/assets/images/17.png"),
+          photoURL: require("~/assets/images/17.png"),
         },
         {
           id: 18,
           name: "Delifruta",
-          photoURL: require("@/assets/images/18.png"),
+          photoURL: require("~/assets/images/18.png"),
         },
         {
           id: 19,
           name: "Folhas Verdes",
-          photoURL: require("@/assets/images/19.png"),
+          photoURL: require("~/assets/images/19.png"),
         },
         {
           id: 20,
           name: "VitalClean",
-          photoURL: require("@/assets/images/20.png"),
+          photoURL: require("~/assets/images/20.png"),
         },
         {
           id: 21,
           name: "FortFood Distribuidora",
-          photoURL: require("@/assets/images/21.png"),
+          photoURL: require("~/assets/images/21.png"),
         },
         {
           id: 22,
           name: "Ovos Avine",
-          photoURL: require("@/assets/images/22.png"),
+          photoURL: require("~/assets/images/22.png"),
         },
         {
           id: 23,
           name: "Gosto Mineiro",
-          photoURL: require("@/assets/images/23.png"),
+          photoURL: require("~/assets/images/23.png"),
         },
         {
           id: 24,
           name: "FC Distribuidora",
-          photoURL: require("@/assets/images/24.png"),
+          photoURL: require("~/assets/images/24.png"),
         },
       ],
     };
@@ -707,7 +707,7 @@ export default {
     ]),
     imgBackground() {
       return (
-        "background-image: url(" + require(`@/assets/images/bg-hero.jpg`) + ")"
+        "background-image: url(" + require(`~/assets/images/bg-hero.jpg`) + ")"
       );
     },
     isDisabled() {

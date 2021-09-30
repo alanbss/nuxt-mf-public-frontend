@@ -168,11 +168,11 @@ export default {
     getFamilyIcon(family) {
       switch(family) {
         case 'Alimentos e bebidas':
-          return '<img src="' + require(`@/assets/images/maca.svg`) + '" alt="*" width="16">'
+          return '<img src="' + require(`~/assets/images/maca.svg`) + '" alt="*" width="16">'
         case 'Embalagens':
           return '<i class="feather icon-shopping-bag mr-25"></i>'
         case 'Limpeza':
-          return '<img src="' + require(`@/assets/images/window-cleaner.svg`) + '" alt="*" width="16">'
+          return '<img src="' + require(`~/assets/images/window-cleaner.svg`) + '" alt="*" width="16">'
         case 'Utensílios':
           return '<i class="fa fa-cutlery mr-25"></i>'
       }

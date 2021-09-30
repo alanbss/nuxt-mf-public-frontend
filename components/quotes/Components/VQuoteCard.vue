@@ -8,7 +8,7 @@
               <span class="d-flex" v-if="!quote.hasExpired" style="color: #0cb695;">
                 <strong>
                   <img
-                    :src="require(`@/assets/images/alarm-clock.svg`)"
+                    :src="require(`~/assets/images/alarm-clock.svg`)"
                     alt="*"
                     width="16"
                     class="filter-green mr-1"
@@ -85,7 +85,7 @@
 //import { mapActions, mapGetters } from "vuex";
 import { mapActions, mapState } from "vuex";
 import timeFormatter from "@/mixins/timeFormatter";
-import VExpiredQuoteModal from "@/resources/quotes/Components/VExpiredQuoteModal";
+import VExpiredQuoteModal from "~/components/quotes/Components/VExpiredQuoteModal";
 
 export default {
   data() {

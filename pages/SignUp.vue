@@ -125,7 +125,7 @@ import FirstStep from "~/components/wizzard/FirstStep";
 import SecondStep from "~/components/wizzard/SecondStep";
 import ThirdStep from "~/components/wizzard/ThirdStep";
 import FourthStep from "~/components/wizzard/FourthStep";
-import ContactService from "@/resources/users/services/ContactService"
+import ContactService from "~/components/users/services/ContactService"
 import { mapActions } from "vuex";
 
 export default {

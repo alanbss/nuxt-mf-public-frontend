@@ -94,8 +94,8 @@
 
 <script>
 import { mapActions, mapGetters } from "vuex";
-import ClientService from '@/resources/clients/services/clients.services'
-import ClientProductQuoteCartService from '@/resources/clients/services/clients.product.quote.cart.services'
+import ClientService from '~/components/clients/services/clients.services'
+import ClientProductQuoteCartService from '~/components/clients/services/clients.product.quote.cart.services'
 import ForgotPasswordModal from "~/components/login/ForgotPasswordModal"
 
 export default {

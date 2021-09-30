@@ -211,7 +211,7 @@
 
 <script>
 import { mapActions, mapGetters, mapState } from "vuex";
-import ClientService from '@/resources/clients/services/clients.services'
+import ClientService from '~/components/clients/services/clients.services'
 import ForgotPasswordModal from "~/components/login/ForgotPasswordModal";
 
 export default {

@@ -17,7 +17,7 @@ export default {
   data() {
     return {
       open: false,
-      noImageSrc: require(`@/assets/images/Produto-sem-imagem-Meu-Fornecedor.jpg`)
+      noImageSrc: require(`~/assets/images/Produto-sem-imagem-Meu-Fornecedor.jpg`)
     }
   },
   created() {

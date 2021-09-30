@@ -3,7 +3,7 @@ const routes = [
   {
     path: "/tipos-de-produto/:productTypeId",
     name: "product-type",
-    component: () => import("@/resources/productTypes/views/ProductType.vue"),
+    component: () => import("~/components/productTypes/views/ProductType.vue"),
     meta: {
       footerOnEnd: true
     },

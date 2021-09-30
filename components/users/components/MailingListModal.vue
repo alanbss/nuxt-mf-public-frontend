@@ -3,7 +3,7 @@
     <vs-popup title="" :active.sync="open">
       <form @submit.enter.prevent="addNewEmail({ email, uf, comments })">
         <div class="row m-0 p-1">
-          <img width="150" class="mb-1" :src="require(`@/assets/images/logo-horizontal-01.png`)">
+          <img width="150" class="mb-1" :src="require(`~/assets/images/logo-horizontal-01.png`)">
           <h6 class="text-muted">
             Que pena...<br>
             Infelizmente ainda não temos fornecedores cadastrados nesta região.
@@ -54,7 +54,7 @@
     </vs-popup>
     <vs-popup title="" :active.sync="openSuccess">
       <div class="row m-0 d-flex justify-content-center">
-        <img width="150" class="mb-1" :src="require(`@/assets/images/logo-horizontal-01.png`)">
+        <img width="150" class="mb-1" :src="require(`~/assets/images/logo-horizontal-01.png`)">
       </div>
       <div class="row m-0 d-flex justify-content-center">
         <h5 id="success-mailing-list">
@@ -68,7 +68,7 @@
 
 <script>
 //import { mapActions, mapGetters } from "vuex";
-import MailingListService from "@/resources/users/services/MailingListService";
+import MailingListService from "~/components/users/services/MailingListService";
 
 export default {
   name: "MailingListModal",

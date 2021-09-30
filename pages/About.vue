@@ -20,7 +20,7 @@
 
           <div class="row d-flex align-items-center">
             <div class="col-lg-6">
-              <img :src="require(`@/assets/images/nao-e-facil-ser-comprador.jpg`)" class="img-fluid mx-auto rounded">
+              <img :src="require(`~/assets/images/nao-e-facil-ser-comprador.jpg`)" class="img-fluid mx-auto rounded">
             </div>
             <div class="col-lg-6">
               <div class="pr-4">
@@ -46,7 +46,7 @@
               </div>
             </div>
             <div class="col-lg-6">
-              <img :src="require(`@/assets/images/a-rotina-e-muito-limitada.jpg`)" class="img-fluid mx-auto rounded">
+              <img :src="require(`~/assets/images/a-rotina-e-muito-limitada.jpg`)" class="img-fluid mx-auto rounded">
             </div>
           </div>
 
@@ -54,7 +54,7 @@
 
           <div class="row d-flex align-items-center">
             <div class="col-lg-6">
-              <img :src="require(`@/assets/images/comprar-deveria-ser-economizar.jpg`)" class="img-fluid mx-auto rounded">
+              <img :src="require(`~/assets/images/comprar-deveria-ser-economizar.jpg`)" class="img-fluid mx-auto rounded">
             </div>
             <div class="col-lg-6">
               <div class="pr-4">
@@ -80,7 +80,7 @@
               </div>
             </div>
             <div class="col-lg-6">
-              <img :src="require(`@/assets/images/meu-fornecedor-e-a-solucao-para-os-restaurantes.jpg`)" class="img-fluid mx-auto rounded">
+              <img :src="require(`~/assets/images/meu-fornecedor-e-a-solucao-para-os-restaurantes.jpg`)" class="img-fluid mx-auto rounded">
             </div>
           </div>
         </div>
@@ -90,7 +90,7 @@
   </div>
 </template>
 
-<style scoped src="@/assets/css/cover.css">
+<style scoped src="~/assets/css/cover.css">
 </style>
 
 <style>
@@ -100,7 +100,7 @@
 </style>
 
 <script>
-// import FamilyCard from "@/resources/families/components/FamilyCard";
+// import FamilyCard from "~/components/families/components/FamilyCard";
 // import MeuFornecedorBanner from "~/components/home/MeuFornecedorBanner";
 // import ProductListEmptyBanner from "~/components/home/ProductListEmptyBanner";
 
@@ -108,11 +108,11 @@ import { mapState, mapGetters, mapActions, mapMutations } from "vuex";
 import { mask } from "vue-the-mask";
 import carousel from 'vue-owl-carousel'
 import LoginDropdown from "~/components/login/LoginDropdown";
-import PartnerModal from "@/resources/users/components/PartnerModal";
+import PartnerModal from "~/components/users/components/PartnerModal";
 import NoSuppliersModal from "~/components/cover/NoSuppliersModal";
-import ProductsService from "@/resources/products/services/index";
-import SuppliersService from "@/resources/suppliers/services/index";
-import FamiliesService from "@/resources/families/services/index";
+import ProductsService from "~/components/products/services/index";
+import SuppliersService from "~/components/suppliers/services/index";
+import FamiliesService from "~/components/families/services/index";
 
 export default {
   data() {

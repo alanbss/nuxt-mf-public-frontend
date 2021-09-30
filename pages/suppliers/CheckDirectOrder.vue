@@ -114,8 +114,8 @@
 <script>
 import { mapState, mapActions } from "vuex";
 import priceFormatter from "@/mixins/priceFormatter";
-import VSupplierOrderProductsReview from "@/resources/orders/components/VSupplierOrderProductsReview";
-import VQuotationPanelClient from "@/resources/quotations/Components/VQuotationPanelClient";
+import VSupplierOrderProductsReview from "~/components/orders/components/VSupplierOrderProductsReview";
+import VQuotationPanelClient from "~/components/quotations/Components/VQuotationPanelClient";
 
 export default {
   data() {

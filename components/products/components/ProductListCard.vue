@@ -161,10 +161,10 @@
 <script>
 import { mapActions, mapGetters } from "vuex";
 
-import VProductCardTitle from "@/resources/products/components/VProductCardTitle";
-import VSecondaryCharacteristics from "@/resources/products/components/VSecondaryCharacteristics";
-import ProductInfoModal from "@/resources/products/components/ProductInfoModal";
-import cardTitle from "@/resources/products/mixins/cardTitle";
+import VProductCardTitle from "~/components/products/components/VProductCardTitle";
+import VSecondaryCharacteristics from "~/components/products/components/VSecondaryCharacteristics";
+import ProductInfoModal from "~/components/products/components/ProductInfoModal";
+import cardTitle from "~/components/products/mixins/cardTitle";
 
 export default {
   name: "ProductCard",

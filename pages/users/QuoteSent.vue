@@ -5,7 +5,7 @@
     <div class="row align-items-center h-100">
       <div class="col-md-6 h-100 align-content-center flex-wrap mf-bg-img d-none d-md-flex">
         <div class="text-center w-75 m-auto">
-          <img :src="require(`@/assets/images/mf-logo-white-2.png`)">
+          <img :src="require(`~/assets/images/mf-logo-white-2.png`)">
           <h3 class="mt-3 text-white">Cotação enviada com sucesso!</h3>
         </div>
       </div>
@@ -327,7 +327,7 @@ export default {
     return {
       maxHeight: null,
       quotationsControl: [],
-      notificationSound: new Audio(require(`@/assets/sounds/notification.mp3`)),
+      notificationSound: new Audio(require(`~/assets/sounds/notification.mp3`)),
       timeouts: []
     };
   },

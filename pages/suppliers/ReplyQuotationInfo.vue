@@ -72,12 +72,12 @@
 
 <script>
 import { mapState, mapActions } from "vuex";
-// import VQuotationPanelProducts from "@/resources/quotations/Components/VQuotationPanelProducts";
-// import VQuotationPanelClient from "@/resources/quotations/Components/VQuotationPanelClient";
-import VQuotationPaymentMethodsCard from "@/resources/quotations/Components/VQuotationPaymentMethodsCard";
-import VQuotationDeliveryCard from "@/resources/quotations/Components/VQuotationDeliveryCard";
-import ReplyQuotationProducts from "@/resources/suppliers/components/ReplyQuotationProducts";
-import ClientInfoModal from "@/resources/clients/components/ClientInfoModal";
+// import VQuotationPanelProducts from "~/components/quotations/Components/VQuotationPanelProducts";
+// import VQuotationPanelClient from "~/components/quotations/Components/VQuotationPanelClient";
+import VQuotationPaymentMethodsCard from "~/components/quotations/Components/VQuotationPaymentMethodsCard";
+import VQuotationDeliveryCard from "~/components/quotations/Components/VQuotationDeliveryCard";
+import ReplyQuotationProducts from "~/components/suppliers/components/ReplyQuotationProducts";
+import ClientInfoModal from "~/components/clients/components/ClientInfoModal";
 import timeFormatter from "@/mixins/timeFormatter";
 
 export default {

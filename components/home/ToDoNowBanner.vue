@@ -8,7 +8,7 @@
         class="p-2"
         :class="this.mobileBrowser ? 'cotar-button-mobile' : 'cotar-button-desktop' "
       >
-        <img src="@/assets/images/cmassa1.png" height="80px" alt />
+        <img src="~/assets/images/cmassa1.png" height="80px" alt />
         <div style="padding-left: 15px;">
           <h4>Cotar</h4>
           <span>Veja o preço de vários fornecedores</span>
@@ -21,7 +21,7 @@
         class="p-2"
         :class="this.mobileBrowser ? 'direta-button-mobile' : 'direta-button-desktop'"
       >
-        <img src="@/assets/images/loja1.png" height="80px" alt />
+        <img src="~/assets/images/loja1.png" height="80px" alt />
         <div style="padding-left: 15px;">
           <h4>Pedir direto</h4>
           <span>Pedir direto na loja virtual do fornecedor</span>

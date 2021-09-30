@@ -12,7 +12,7 @@
       <span>
         <img
           class="round"
-          src="@/assets/images/more-vertical-white.svg"
+          src="~/assets/images/more-vertical-white.svg"
           alt="more"
           height="35"
           width="35"
@@ -67,7 +67,7 @@
       <span>
         <img
           class="round"
-          src="@/assets/images/avatar-default.png"
+          src="~/assets/images/avatar-default.png"
           alt="avatar"
           height="40"
           width="40"
@@ -82,7 +82,7 @@ import { mapState, mapActions } from "vuex";
 import { mixin as clickaway } from "vue-clickaway";
 import Account from "./Account";
 import BusinessData from "./BusinessData";
-import NoPricesModal from "@/resources/suppliers/components/NoPricesModal";
+import NoPricesModal from "~/components/suppliers/components/NoPricesModal";
 
 export default {
   name: "ProfileDropdown",

@@ -172,8 +172,8 @@
 
 <script>
 import { mapState, mapActions } from "vuex";
-import ClientProductQuoteCartService from '@/resources/clients/services/clients.product.quote.cart.services';
-import VProductCard from "@/resources/products/components/ProductCard";
+import ClientProductQuoteCartService from '~/components/clients/services/clients.product.quote.cart.services';
+import VProductCard from "~/components/products/components/ProductCard";
 
 export default {
   data() {

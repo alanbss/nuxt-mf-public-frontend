@@ -382,14 +382,14 @@
 
 <script>
 import { mapState, mapActions } from "vuex";
-import VQuotePanelInfoHeader from "@/resources/quotes/Components/VQuotePanelInfoHeader";
-import VQuotePanelFilters from "@/resources/quotes/Components/VQuotePanelFilters";
-import VQuotePanelComparePrices from "@/resources/quotes/Components/VQuotePanelComparePrices";
-import VQuotePanelIdle from "@/resources/quotes/Components/VQuotePanelIdle";
-import VQuotePanelNoAnswer from "@/resources/quotes/Components/VQuotePanelNoAnswer";
-import VQuotePanelOpen from "@/resources/quotes/Components/VQuotePanelOpen";
-import VQuotePanelOC from "@/resources/quotes/Components/VQuotePanelOC";
-import VQuotePanelRefused from "@/resources/quotes/Components/VQuotePanelRefused";
+import VQuotePanelInfoHeader from "~/components/quotes/Components/VQuotePanelInfoHeader";
+import VQuotePanelFilters from "~/components/quotes/Components/VQuotePanelFilters";
+import VQuotePanelComparePrices from "~/components/quotes/Components/VQuotePanelComparePrices";
+import VQuotePanelIdle from "~/components/quotes/Components/VQuotePanelIdle";
+import VQuotePanelNoAnswer from "~/components/quotes/Components/VQuotePanelNoAnswer";
+import VQuotePanelOpen from "~/components/quotes/Components/VQuotePanelOpen";
+import VQuotePanelOC from "~/components/quotes/Components/VQuotePanelOC";
+import VQuotePanelRefused from "~/components/quotes/Components/VQuotePanelRefused";
 import timeFormatter from "@/mixins/timeFormatter";
 
 export default {

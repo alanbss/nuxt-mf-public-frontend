@@ -20,7 +20,7 @@
 <script>
 var uniqBy = require('lodash.uniqby');
 var sortBy = require('lodash.sortby');
-import ClientService from "@/resources/clients/services/catalog";
+import ClientService from "~/components/clients/services/catalog";
 export default {
   data() {
     return {

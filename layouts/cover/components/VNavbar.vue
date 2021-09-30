@@ -3,7 +3,7 @@
     <div class="container d-flex align-items-center">
       <div class="logo mr-auto">
         <a href="javascript:void(0);" @click="scrollToTop()" title="">
-          <img :src="require(`@/assets/images/logo-cover.png`)" alt="Meu Fornecedor" class="img-fluid">
+          <img :src="require(`~/assets/images/logo-cover.png`)" alt="Meu Fornecedor" class="img-fluid">
         </a>
       </div>
       <nav class="nav-menu">
@@ -14,12 +14,12 @@
   </header>
 </template>
 
-<style scoped src="@/assets/css/cover.css">
+<style scoped src="~/assets/css/cover.css">
 </style>
 
 <script>
 import { mapState } from "vuex";
-import PartnerModal from "@/resources/users/components/PartnerModal";
+import PartnerModal from "~/components/users/components/PartnerModal";
 
 // import ProfileDropdown from "./v-navbar/ProfileDropdown";
 // import VQuotationButton from "./v-navbar/VQuotationButton";

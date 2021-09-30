@@ -67,7 +67,7 @@
 <script>
 import { mapActions, mapGetters } from "vuex";
 
-import ProductPhotoModal from "@/resources/products/components/ProductPhotoModal";
+import ProductPhotoModal from "~/components/products/components/ProductPhotoModal";
 
 export default {
   name: "ProductCard",

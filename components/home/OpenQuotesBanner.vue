@@ -43,7 +43,7 @@
 
 <script>
 import { mapState, mapActions } from "vuex";
-import VQuoteCard from "@/resources/quotes/Components/VQuoteCard";
+import VQuoteCard from "~/components/quotes/Components/VQuoteCard";
 
 export default {
   data() {

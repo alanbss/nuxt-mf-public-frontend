@@ -108,7 +108,7 @@
 <script>
 import { mapState, mapActions } from "vuex";
 import ProfileDropdown from "./v-navbar/ProfileDropdown";
-import NoPricesModal from "@/resources/suppliers/components/NoPricesModal";
+import NoPricesModal from "~/components/suppliers/components/NoPricesModal";
 import { mixin as clickaway } from "vue-clickaway";
 import { bus } from "@/main";
 

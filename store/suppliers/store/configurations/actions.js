@@ -1,5 +1,5 @@
 import * as types from './mutations-types'
-import SupplierConfigurationService from '@/resources/suppliers/services/supplierConfigurations'
+import SupplierConfigurationService from '~/components/suppliers/services/supplierConfigurations'
 
 export default {
   getConfiguration: async ({ commit }) => {

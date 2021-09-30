@@ -2,7 +2,7 @@
   <!-- Modal - Sem Fornecedores disponíveis -->
   <vs-popup title="" :active.sync="open">
     <div class="row m-0 p-1">
-      <img width="150" class="mb-1" :src="require(`@/assets/images/logo-horizontal-01.png`)">
+      <img width="150" class="mb-1" :src="require(`~/assets/images/logo-horizontal-01.png`)">
       <h6 class="mt-1">
         Lançaremos o sistema em breve.
         <br>

@@ -113,7 +113,7 @@
 //import { mapActions, mapGetters } from "vuex";
 import { mapActions, mapState } from "vuex";
 import priceFormatter from "@/mixins/priceFormatter";
-import ProductPhotoModal from "@/resources/products/components/ProductPhotoModal";
+import ProductPhotoModal from "~/components/products/components/ProductPhotoModal";
 
 export default {
   data() {

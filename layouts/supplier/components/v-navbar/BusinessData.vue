@@ -225,7 +225,7 @@
 
 <script>
 import { mask } from "vue-the-mask";
-import DataService from '@/resources/users/services/DataService'
+import DataService from '~/components/users/services/DataService'
 
 export default {
   name: "BusinessData",

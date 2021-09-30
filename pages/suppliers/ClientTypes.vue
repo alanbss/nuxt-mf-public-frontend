@@ -55,7 +55,7 @@
 </template>
 
 <script>
-import SupplierConfigurationService from "@/resources/suppliers/services/supplierConfigurations";
+import SupplierConfigurationService from "~/components/suppliers/services/supplierConfigurations";
 
 export default {
   name: "ClientTypes",

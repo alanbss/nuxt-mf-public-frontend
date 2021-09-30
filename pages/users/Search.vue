@@ -84,8 +84,8 @@
 </style>
 
 <script>
-import FamilySearchList from "@/resources/families/components/FamilySearchList";
-import ProductCard from "@/resources/products/components/ProductCard";
+import FamilySearchList from "~/components/families/components/FamilySearchList";
+import ProductCard from "~/components/products/components/ProductCard";
 import { mapActions, mapGetters, mapState } from "vuex";
 
 export default {

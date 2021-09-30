@@ -65,7 +65,7 @@
 
 <script>
 import stepValidation from "@/mixins/stepValidation";
-import ClientService from '@/resources/clients/services/clients.services'
+import ClientService from '~/components/clients/services/clients.services'
 import LoginDropdown from "~/components/login/LoginDropdown"
 
 export default {

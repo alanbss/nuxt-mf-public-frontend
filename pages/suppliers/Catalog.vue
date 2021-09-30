@@ -109,7 +109,7 @@
 
 <script>
 import { mapState, mapActions } from "vuex";
-import SupplierCatalogProductCard from "@/resources/products/components/SupplierCatalogProductCard";
+import SupplierCatalogProductCard from "~/components/products/components/SupplierCatalogProductCard";
 
 export default {
   data() {

@@ -81,7 +81,7 @@
 
 <script>
 import { mapGetters } from "vuex";
-import cardTitle from "@/resources/products/mixins/cardTitle";
+import cardTitle from "~/components/products/mixins/cardTitle";
 
 export default {
   name: "ProductInfoModal",
@@ -89,7 +89,7 @@ export default {
     return {
       open: false,
       secondary: [],
-      noImageSrc: require(`@/assets/images/Produto-sem-imagem-Meu-Fornecedor.jpg`)
+      noImageSrc: require(`~/assets/images/Produto-sem-imagem-Meu-Fornecedor.jpg`)
     }
   },
   created() {

@@ -105,7 +105,7 @@
   }
   .bg-photo {
     color: #fff;
-    background: url('~@/assets/images/deposito-v4.png');
+    background: url('~~/assets/images/deposito-v4.png');
     background-attachment: fixed;
     background-repeat: repeat-x;
     background-position: center top;
@@ -118,7 +118,7 @@
   }
   .bg-photo {
     color: #fff;
-    background: url('~@/assets/images/deposito-v4.png');
+    background: url('~~/assets/images/deposito-v4.png');
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: center top;
@@ -137,7 +137,7 @@ import { mapState, mapActions, mapGetters } from "vuex";
 import LoginDropdown from "~/components/login/LoginDropdown";
 import VQuotationButton from "./v-navbar/VQuotationButton";
 import VStoreButton from "./v-navbar/VStoreButton";
-import PartnerModal from "@/resources/users/components/PartnerModal";
+import PartnerModal from "~/components/users/components/PartnerModal";
 
 export default {
   name: "VNavbar",

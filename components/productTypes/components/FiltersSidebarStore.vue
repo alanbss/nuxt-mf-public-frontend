@@ -19,7 +19,7 @@
 
 <script>
 import { mapState, mapActions } from "vuex";
-import ProductsFilterStore from "@/resources/productTypes/components/ProductsFilterStore";
+import ProductsFilterStore from "~/components/productTypes/components/ProductsFilterStore";
 
 export default {
   name: "FiltersSidebarStore",

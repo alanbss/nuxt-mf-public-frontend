@@ -83,11 +83,11 @@
 import { mask } from "vue-the-mask";
 import { mapActions, mapState, mapGetters } from "vuex";
 import NoSuppliersModal from "~/components/cover/NoSuppliersModal";
-import StateService from "@/resources/users/services/StateService";
-import ProductsService from "@/resources/products/services/index";
-import ClientProductQuoteCartService from '@/resources/clients/services/clients.product.quote.cart.services';
-import ZipcodeNotFoundModal from "@/resources/users/components/ZipcodeNotFoundModal";
-import MailingListModal from "@/resources/users/components/MailingListModal";
+import StateService from "~/components/users/services/StateService";
+import ProductsService from "~/components/products/services/index";
+import ClientProductQuoteCartService from '~/components/clients/services/clients.product.quote.cart.services';
+import ZipcodeNotFoundModal from "~/components/users/components/ZipcodeNotFoundModal";
+import MailingListModal from "~/components/users/components/MailingListModal";
 
 export default {
   name: "FilterProducts",

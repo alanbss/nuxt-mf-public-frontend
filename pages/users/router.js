@@ -8,7 +8,7 @@ const routes = [
     path: '/painel-de-cotacoes/:quoteId',
     name: 'users.quotePanel',
     component: () =>
-      import('@/resources/users/views/QuotePanel.vue'),
+      import('~/components/users/views/QuotePanel.vue'),
     meta: {
       auth: true,
       leaveQuotationButton: true,
@@ -24,7 +24,7 @@ const routes = [
     path: '/ver-pedido/:quotationId',
     name: 'users.checkOrder',
     component: () =>
-      import('@/resources/users/views/CheckOrder.vue'),
+      import('~/components/users/views/CheckOrder.vue'),
     meta: {
       auth: true,
     },
@@ -36,7 +36,7 @@ const routes = [
     path: '/revisar-pedido/:quotationId',
     name: 'users.reviewQuotation',
     component: () =>
-      import('@/resources/users/views/ReviewQuotation.vue'),
+      import('~/components/users/views/ReviewQuotation.vue'),
     meta: {
       auth: true,
       leaveQuotationButton: true,
@@ -51,7 +51,7 @@ const routes = [
     path: '/revisar-pedido/produtos/:quotationId',
     name: 'users.reviewQuotationProducts',
     component: () =>
-      import('@/resources/users/views/ReviewQuotationProducts.vue'),
+      import('~/components/users/views/ReviewQuotationProducts.vue'),
     meta: {
       auth: true,
       blockSearch: true,
@@ -66,7 +66,7 @@ const routes = [
     path: '/loja/busca/:supplierSlug/:keyword',
     name: 'public-store-search',
     component: () =>
-      import('@/resources/users/views/StoreSearch.vue'),
+      import('~/components/users/views/StoreSearch.vue'),
     meta: {
       publicPage: true,
       supplierStore: true,
@@ -77,7 +77,7 @@ const routes = [
     path: '/loja/:supplierSlug',
     name: 'public-store',
     component: () =>
-      import('@/resources/users/views/SupplierPublicPage.vue'),
+      import('~/components/users/views/SupplierPublicPage.vue'),
     meta: {
       publicPage: true,
       supplierStore: true,
@@ -88,7 +88,7 @@ const routes = [
     path: '/loja/:supplierSlug/revisar-compra/:orderId',
     name: 'users.reviewOrder',
     component: () =>
-      import('@/resources/users/views/ReviewOrder.vue'),
+      import('~/components/users/views/ReviewOrder.vue'),
     meta: {
       blockSearch: true,
       publicPage: true,
@@ -101,7 +101,7 @@ const routes = [
     path: '/loja/:supplierSlug/revisar-compra/produtos/:orderId',
     name: 'users.reviewOrderProducts',
     component: () =>
-      import('@/resources/users/views/ReviewOrderProducts.vue'),
+      import('~/components/users/views/ReviewOrderProducts.vue'),
     meta: {
       blockSearch: true,
       publicPage: true,
@@ -112,7 +112,7 @@ const routes = [
     path: '/loja/:supplierSlug/:familyName',
     name: 'public-store-family',
     component: () =>
-      import('@/resources/users/views/SupplierPublicPage.vue'),
+      import('~/components/users/views/SupplierPublicPage.vue'),
     meta: {
       publicPage: true,
       supplierStore: true,
@@ -123,7 +123,7 @@ const routes = [
     path: '/loja/:supplierSlug/:familyName/:categoryName',
     name: 'public-store-category',
     component: () =>
-      import('@/resources/users/views/SupplierPublicPage.vue'),
+      import('~/components/users/views/SupplierPublicPage.vue'),
     meta: {
       publicPage: true,
       supplierStore: true,
@@ -134,7 +134,7 @@ const routes = [
     path: '/loja/:supplierSlug/:familyName/:categoryName/:productTypeName',
     name: 'public-store-product',
     component: () =>
-      import('@/resources/users/views/SupplierPublicPage.vue'),
+      import('~/components/users/views/SupplierPublicPage.vue'),
     meta: {
       publicPage: true,
       supplierStore: true,
@@ -146,7 +146,7 @@ const routes = [
     path: '/conta-suspensa',
     name: 'users.suspended',
     component: () =>
-      import('@/resources/users/views/Suspended.vue'),
+      import('~/components/users/views/Suspended.vue'),
     meta: {
       auth: true,
       suspended: true

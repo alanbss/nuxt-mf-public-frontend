@@ -54,8 +54,8 @@
 </template>
 
 <script>
-import RegionItemList from "@/resources/suppliers/components/RegionItemList";
-import RegionModalContent from "@/resources/suppliers/components/RegionModalContent";
+import RegionItemList from "~/components/suppliers/components/RegionItemList";
+import RegionModalContent from "~/components/suppliers/components/RegionModalContent";
 import { mapActions, mapState, mapGetters } from "vuex";
 
 export default {

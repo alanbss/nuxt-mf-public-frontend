@@ -1,5 +1,5 @@
 import Vue from 'vue'
-import StateService from "@/resources/users/services/StateService";
+import StateService from "~/components/users/services/StateService";
 
 export function checkAvailableState(to, from, next, store, uf) {
   if(uf) {

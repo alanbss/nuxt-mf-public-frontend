@@ -42,7 +42,7 @@
 <script>
 //import { mapActions, mapGetters } from "vuex";
 import { mapActions, mapState } from "vuex";
-import OrderProductCard from "@/resources/products/components/OrderProductCard";
+import OrderProductCard from "~/components/products/components/OrderProductCard";
 
 export default {
   data() {

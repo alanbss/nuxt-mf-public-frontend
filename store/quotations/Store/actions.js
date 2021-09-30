@@ -1,5 +1,5 @@
 import * as types from './mutations-types'
-import QuotationService from '@/resources/quotations/Services/quotations.services'
+import QuotationService from '~/components/quotations/Services/quotations.services'
 
 export default {
 

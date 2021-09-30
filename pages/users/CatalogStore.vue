@@ -68,7 +68,7 @@
                 />
                 <img
                   v-else
-                  :src="require(`@/assets/images/avatar-default.png`)"
+                  :src="require(`~/assets/images/avatar-default.png`)"
                   alt="*"
                   width="auto"
                   height="45"
@@ -190,7 +190,7 @@
                   class="btn btn-danger w-100"
                   style="padding: 7px 2px;"
                 >
-                  <img :src="require(`@/assets/images/offers.png`)" alt="*" width="16" height="16" />
+                  <img :src="require(`~/assets/images/offers.png`)" alt="*" width="16" height="16" />
                   <span class="font-small-3 align-middle">Ver ofertas</span>
                 </button>
               </div>
@@ -1497,7 +1497,7 @@
                 />
                 <img
                   v-else
-                  :src="require(`@/assets/images/avatar-default.png`)"
+                  :src="require(`~/assets/images/avatar-default.png`)"
                   alt="*"
                   width="auto"
                   height="45"
@@ -1629,7 +1629,7 @@
                   class="btn btn-danger w-100"
                   style="padding: 7px 2px;"
                 >
-                  <img :src="require(`@/assets/images/offers.png`)" alt="*" width="16" height="16" />
+                  <img :src="require(`~/assets/images/offers.png`)" alt="*" width="16" height="16" />
                   <span class="font-small-3 align-middle">Ver ofertas</span>
                 </button>
               </div>
@@ -3026,13 +3026,13 @@
 
 <script>
 import { mapState, mapActions } from "vuex";
-import StoreFamiliesModal from "@/resources/users/components/StoreFamiliesModal";
-import OutOfRegionModal from "@/resources/users/components/OutOfRegionModal";
-import SupplierInfoModal from "@/resources/suppliers/components/SupplierInfoModal";
-import PublicStoreProductCard from "@/resources/products/components/PublicStoreProductCard";
-import StoreLocationModal from "@/resources/users/components/StoreLocationModal";
+import StoreFamiliesModal from "~/components/users/components/StoreFamiliesModal";
+import OutOfRegionModal from "~/components/users/components/OutOfRegionModal";
+import SupplierInfoModal from "~/components/suppliers/components/SupplierInfoModal";
+import PublicStoreProductCard from "~/components/products/components/PublicStoreProductCard";
+import StoreLocationModal from "~/components/users/components/StoreLocationModal";
 import priceFormatter from "@/mixins/priceFormatter";
-import FiltersSidebarStore from "@/resources/productTypes/components/FiltersSidebarStore";
+import FiltersSidebarStore from "~/components/productTypes/components/FiltersSidebarStore";
 import "vue-context/dist/css/vue-context.css";
 
 export default {
@@ -3916,7 +3916,7 @@ export default {
         case "Alimentos e bebidas":
           return (
             '<img src="' +
-            require(`@/assets/images/maca.svg`) +
+            require(`~/assets/images/maca.svg`) +
             '" alt="*" width="16">'
           );
         case "Embalagens":
@@ -3924,7 +3924,7 @@ export default {
         case "Limpeza":
           return (
             '<img class="mr-25" src="' +
-            require(`@/assets/images/window-cleaner.svg`) +
+            require(`~/assets/images/window-cleaner.svg`) +
             '" alt="*" width="16">'
           );
         case "Utensílios":

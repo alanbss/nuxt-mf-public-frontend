@@ -1,5 +1,5 @@
 import * as types from './mutations-types'
-import FamilyService from "@/resources/families/services/";
+import FamilyService from "~/components/families/services/";
 
 export default {
   getFamilies: async ({ commit }) => {

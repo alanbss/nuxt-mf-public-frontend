@@ -1,5 +1,5 @@
 import * as types from './mutations-types'
-import QuoteService from '@/resources/quotes/Services/quotes.services'
+import QuoteService from '~/components/quotes/Services/quotes.services'
 
 export default {
   createQuote: async ({ commit }, data) => {

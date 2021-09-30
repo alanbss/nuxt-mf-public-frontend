@@ -314,9 +314,9 @@
 //import { mapActions, mapGetters } from "vuex";
 import { mapActions, mapState } from "vuex";
 import priceFormatter from "@/mixins/priceFormatter";
-import AcceptOrderModal from "@/resources/suppliers/components/AcceptOrderModal";
-import RefuseOrderModal from "@/resources/suppliers/components/RefuseOrderModal";
-import VOrderProductsReview from "@/resources/quotations/Components/VOrderProductsReview";
+import AcceptOrderModal from "~/components/suppliers/components/AcceptOrderModal";
+import RefuseOrderModal from "~/components/suppliers/components/RefuseOrderModal";
+import VOrderProductsReview from "~/components/quotations/Components/VOrderProductsReview";
 
 import VueContext from 'vue-context';
 import 'vue-context/dist/css/vue-context.css';

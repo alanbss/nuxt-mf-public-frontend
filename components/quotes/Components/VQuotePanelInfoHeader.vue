@@ -63,7 +63,7 @@
 
 <script>
 import priceFormatter from "@/mixins/priceFormatter";
-import VDropdownInfo from "@/resources/suppliers/components/VDropdownInfo";
+import VDropdownInfo from "~/components/suppliers/components/VDropdownInfo";
 import { mapActions, mapState } from "vuex";
 
 export default {

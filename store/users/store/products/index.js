@@ -1,8 +1,8 @@
-import ProductListService from '@/resources/clients/services/productList'
-import ProductListResumeService from '@/resources/clients/services/productListResume'
-import ProductQuoteCartService from '@/resources/clients/services/clients.product.quote.cart.services'
-import ProductQuoteCartResumeService from '@/resources/clients/services/clients.product.quote.cart.resume.services'
-import CatalogService from '@/resources/clients/services/catalog'
+import ProductListService from '~/components/clients/services/productList'
+import ProductListResumeService from '~/components/clients/services/productListResume'
+import ProductQuoteCartService from '~/components/clients/services/clients.product.quote.cart.services'
+import ProductQuoteCartResumeService from '~/components/clients/services/clients.product.quote.cart.resume.services'
+import CatalogService from '~/components/clients/services/catalog'
 
 const SET_PRODUCT_LIST = 'SET_PRODUCT_LIST'
 const SET_PRODUCT_TYPE_NAME = 'SET_PRODUCT_TYPE_NAME'

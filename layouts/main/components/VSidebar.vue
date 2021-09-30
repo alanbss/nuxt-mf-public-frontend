@@ -18,7 +18,7 @@
         "
       >
         <img
-          src="@/assets/images/logo-horizontal-01.png"
+          src="~/assets/images/logo-horizontal-01.png"
           height="50px"
           alt=""
         />
@@ -34,7 +34,7 @@
       style="text-align-last: center; padding-bottom: 50px"
     >
       <a>
-        <img src="@/assets/images/menu3linhas.png" height="30px" alt="" />
+        <img src="~/assets/images/menu3linhas.png" height="30px" alt="" />
       </a>
     </div>
 
@@ -43,14 +43,14 @@
         <div>
           <img
             :class="this.$route.name == 'home' ? 'd-inherit' : 'd-none'"
-            src="@/assets/images/menu2.png"
+            src="~/assets/images/menu2.png"
             height="25px"
             width="25px"
             alt="menu"
           />
           <img
             :class="this.$route.name == 'home' ? 'd-none' : 'd-inherit'"
-            src="@/assets/images/menu1.png"
+            src="~/assets/images/menu1.png"
             height="25px"
             width="25px"
             alt="menu"
@@ -77,14 +77,14 @@
       <router-link :to="{name: 'cotar'}" :class="reduce ? 'a-reduced' : 'a-expanded'">
         <div>
           <img
-            src="@/assets/images/cmassa2.png"
+            src="~/assets/images/cmassa2.png"
             :class="this.$route.name == 'cotar' ? 'd-inherit' : 'd-none'"
             height="22px"
             width="22px"
             alt="menu"
           />
           <img
-            src="@/assets/images/cmassa1.png"
+            src="~/assets/images/cmassa1.png"
             :class="this.$route.name == 'cotar' ? 'd-none' : 'd-inherit'"
             height="25px"
             width="22px"
@@ -112,13 +112,13 @@
       <router-link :to="{name: 'suppliers'}" :class="reduce ? 'a-reduced' : 'a-expanded'" >
         <div>
           <img
-            src="@/assets/images/loja2.png"
+            src="~/assets/images/loja2.png"
             :class="this.$route.name == 'suppliers' ? 'd-inherit' : 'd-none'"
             height="25px"
             alt="menu"
           />
           <img
-            src="@/assets/images/loja1.png"
+            src="~/assets/images/loja1.png"
             :class="this.$route.name == 'suppliers' ? 'd-none' : 'd-inherit'"
             height="25px"
             width="25px"
@@ -153,7 +153,7 @@
         :class="reduce ? 'd-none' : 'a-expanded'"
       >
         <img
-          src="@/assets/images/quotation.png"
+          src="~/assets/images/quotation.png"
           height="25px"
           width="25px"
           alt="menu"
@@ -167,7 +167,7 @@
         :class="reduce ? 'd-none' : 'a-expanded'"
       >
         <img
-          src="@/assets/images/invoice.png"
+          src="~/assets/images/invoice.png"
           height="22px"
           width="22px"
           alt="menu"
@@ -203,7 +203,7 @@ import ProfileDropdown from "./v-navbar/ProfileDropdown";
 import About from "./v-sidebar/About";
 import Terms from "./v-sidebar/Terms";
 import Contact from "./v-sidebar/Contact";
-import QuotesService from "@/resources/quotes/Services/quotes.services";
+import QuotesService from "~/components/quotes/Services/quotes.services";
 import HomeOption from "./v-sidebar/HomeOption";
 import ProductListOption from "./v-sidebar/ProductListOption";
 import QuotationsOption from "./v-sidebar/QuotationsOption";

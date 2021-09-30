@@ -4,17 +4,17 @@ import getters from "./getters"
 import mutations from "./mutations"
 import actions from "./actions"
 
-import users from "@/resources/users/store/"
-import products from "@/resources/products/store/"
-import productTypes from "@/resources/productTypes/store/"
-import suppliers from "@/resources/suppliers/store/"
-import clients from "@/resources/clients/store/"
+import users from "~/components/users/store/"
+import products from "~/components/products/store/"
+import productTypes from "~/components/productTypes/store/"
+import suppliers from "~/components/suppliers/store/"
+import clients from "~/components/clients/store/"
 import navigationFilters from "@/store/navigationFilters/"
-import families from "@/resources/families/store/"
+import families from "~/components/families/store/"
 import pagination from "@/store/pagination/"
-import quotes from '@/resources/quotes/Store/'
-import quotations from '@/resources/quotations/Store/'
-import orders from '@/resources/orders/store/'
+import quotes from '~/components/quotes/Store/'
+import quotations from '~/components/quotations/Store/'
+import orders from '~/components/orders/store/'
 
 
 const modules = {

@@ -70,7 +70,7 @@
 <script>
 //import { mapActions, mapGetters } from "vuex";
 import { mapActions, mapState } from "vuex";
-import QuoteProductCard from "@/resources/products/components/QuoteProductCard";
+import QuoteProductCard from "~/components/products/components/QuoteProductCard";
 
 export default {
   data() {

@@ -8,7 +8,7 @@
   </div>
   <vs-popup class="holamundo" title=" " :active.sync="showLeavingPopup">
     <div  style="text-align: center;">
-      <img class="m-2" src="@/assets/images/warning.png" height="100px" alt="">
+      <img class="m-2" src="~/assets/images/warning.png" height="100px" alt="">
       <h4 class="m-2" style="color: red;">Tem certeza que deseja sair da loja?</h4>
       <h6>Você perderá o pedido de compra que estava montando.</h6>
       <div class="m-2" style="white-space: nowrap;">
@@ -22,8 +22,8 @@
 
 <script>
 import { mapState, mapActions } from "vuex";
-import CatalogStore from "@/resources/users/views/CatalogStore";
-import CatalogPublic from "@/resources/users/views/CatalogPublic";
+import CatalogStore from "~/components/users/views/CatalogStore";
+import CatalogPublic from "~/components/users/views/CatalogPublic";
 
 export default {
   metaInfo() {

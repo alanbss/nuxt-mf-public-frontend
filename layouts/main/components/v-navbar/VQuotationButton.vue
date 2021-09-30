@@ -80,7 +80,7 @@
 </style>
 
 <script>
-//import VQuoteButton from "@/resources/quotes/Components/VQuoteButton";
+//import VQuoteButton from "~/components/quotes/Components/VQuoteButton";
 import { mapActions, mapState } from "vuex";
 export default {
   name: "VQuotationButton",

@@ -29,8 +29,8 @@
 </template>
 
 <script>
-import cardTitle from "@/resources/products/mixins/cardTitle";
-import VPopoverProductCard from "@/resources/products/components/VPopoverProductCard";
+import cardTitle from "~/components/products/mixins/cardTitle";
+import VPopoverProductCard from "~/components/products/components/VPopoverProductCard";
 import VClamp from "vue-clamp";
 
 export default {

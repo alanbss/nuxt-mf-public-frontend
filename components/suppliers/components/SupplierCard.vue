@@ -55,7 +55,7 @@
     }
 </style>
 <script>
-import SuppliersService from "@/resources/suppliers/services/index";
+import SuppliersService from "~/components/suppliers/services/index";
 
 export default {
   name: "SupplierCard",
@@ -63,7 +63,7 @@ export default {
     return {
         catalog: [],
         offersPerSupplier: [],
-        noImageSrc: require(`@/assets/images/avatar-default.png`),
+        noImageSrc: require(`~/assets/images/avatar-default.png`),
         familyIcon: null,
         mobileBrowser: false,
     };
@@ -82,13 +82,13 @@ export default {
     getFamilyIcon(family) {
       switch(family) {
         case 'Alimentos e bebidas':
-          return '<img src="' + require(`@/assets/images/apple.png`) + '" alt="*" width="16">'
+          return '<img src="' + require(`~/assets/images/apple.png`) + '" alt="*" width="16">'
         case 'Embalagens':
-          return '<img src="' + require(`@/assets/images/shopping-bag.png`) + '" alt="*" width="16">'
+          return '<img src="' + require(`~/assets/images/shopping-bag.png`) + '" alt="*" width="16">'
         case 'Limpeza':
-          return '<img src="' + require(`@/assets/images/spray.png`) + '" alt="*" width="16">'
+          return '<img src="' + require(`~/assets/images/spray.png`) + '" alt="*" width="16">'
         case 'Utensílios':
-          return '<img src="' + require(`@/assets/images/restaurant.png`) + '" alt="*" width="16">'
+          return '<img src="' + require(`~/assets/images/restaurant.png`) + '" alt="*" width="16">'
       }
       return null
     },

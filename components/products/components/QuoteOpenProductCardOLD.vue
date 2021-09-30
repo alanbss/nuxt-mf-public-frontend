@@ -202,13 +202,13 @@
 <script>
 //import { mapActions, mapState } from "vuex";
 
-//import QuotationProductExpedition from "@/resources/products/components/QuotationProductExpedition";
+//import QuotationProductExpedition from "~/components/products/components/QuotationProductExpedition";
 import priceFormatter from "@/mixins/priceFormatter";
-import VQuoteProductDescription from "@/resources/products/components/VQuoteProductDescription";
-import ProductInfoModal from "@/resources/products/components/ProductInfoModal";
-import ProductPhotoModal from "@/resources/products/components/ProductPhotoModal";
-import cardTitle from "@/resources/products/mixins/cardTitle";
-import VPopoverProductCard from "@/resources/products/components/VPopoverProductCard";
+import VQuoteProductDescription from "~/components/products/components/VQuoteProductDescription";
+import ProductInfoModal from "~/components/products/components/ProductInfoModal";
+import ProductPhotoModal from "~/components/products/components/ProductPhotoModal";
+import cardTitle from "~/components/products/mixins/cardTitle";
+import VPopoverProductCard from "~/components/products/components/VPopoverProductCard";
 import VClamp from "vue-clamp";
 import NumberInputSpinner from '~/components/inputSpinner/NumberInputSpinner';
 import Vue from 'vue';

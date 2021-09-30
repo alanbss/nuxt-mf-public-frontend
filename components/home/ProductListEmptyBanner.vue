@@ -8,7 +8,7 @@
       <div class="card-body">
         <div class="row d-md-none">
           <div class="col-4 text-center">
-            <img src="@/assets/images/mf-logo-white.png" class="img-fluid mt-2" alt />
+            <img src="~/assets/images/mf-logo-white.png" class="img-fluid mt-2" alt />
           </div>
           <div class="col-8">
             <span

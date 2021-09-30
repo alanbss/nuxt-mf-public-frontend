@@ -141,13 +141,13 @@
 </style>
 
 <script>
-import ProductsFilter from "@/resources/productTypes/components/ProductsFilter";
-import ProductsFilterVertical from "@/resources/productTypes/components/ProductsFilterVertical";
-import FiltersSidebar from "@/resources/productTypes/components/FiltersSidebar";
-import ProductCard from "@/resources/products/components/ProductCard";
-import AddAllButton from "@/resources/products/components/AddAllButton";
+import ProductsFilter from "~/components/productTypes/components/ProductsFilter";
+import ProductsFilterVertical from "~/components/productTypes/components/ProductsFilterVertical";
+import FiltersSidebar from "~/components/productTypes/components/FiltersSidebar";
+import ProductCard from "~/components/products/components/ProductCard";
+import AddAllButton from "~/components/products/components/AddAllButton";
 import VFooter from "@/layouts/main/components/VFooter";
-import ProductTypeService from "@/resources/productTypes/services";
+import ProductTypeService from "~/components/productTypes/services";
 import { mapActions, mapGetters, mapState } from "vuex";
 var sortBy = require("lodash.sortby");
 

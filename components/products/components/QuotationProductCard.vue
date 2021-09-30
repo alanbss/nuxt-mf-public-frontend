@@ -49,16 +49,16 @@
 <script>
 // import { mapActions } from "vuex";
 
-import QuotationProductExpedition from "@/resources/products/components/QuotationProductExpedition";
-import VProductCardTitle from "@/resources/products/components/VProductCardTitle";
-import VSecondaryCharacteristics from "@/resources/products/components/VSecondaryCharacteristics";
+import QuotationProductExpedition from "~/components/products/components/QuotationProductExpedition";
+import VProductCardTitle from "~/components/products/components/VProductCardTitle";
+import VSecondaryCharacteristics from "~/components/products/components/VSecondaryCharacteristics";
 
 export default {
   name: "QuotationProductCard",
   data() {
     return {
       openPhoto: false,
-      noImageSrc: require(`@/assets/images/Produto-sem-imagem-Meu-Fornecedor.jpg`)
+      noImageSrc: require(`~/assets/images/Produto-sem-imagem-Meu-Fornecedor.jpg`)
     }
   },
   mounted() {

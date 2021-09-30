@@ -168,8 +168,8 @@
 <script>
 import { mapActions, mapGetters, mapState } from "vuex";
 import priceFormatter from "@/mixins/priceFormatter";
-import cardTitle from "@/resources/products/mixins/cardTitle";
-import VPopoverProductCard from "@/resources/products/components/VPopoverProductCard";
+import cardTitle from "~/components/products/mixins/cardTitle";
+import VPopoverProductCard from "~/components/products/components/VPopoverProductCard";
 import VClamp from "vue-clamp";
 import Vue from 'vue';
 
@@ -184,7 +184,7 @@ export default {
       openPhoto: false,
       discountValid: [],
       openAdd: false,
-      noImageSrc: require(`@/assets/images/Produto-sem-imagem-Meu-Fornecedor.jpg`),
+      noImageSrc: require(`~/assets/images/Produto-sem-imagem-Meu-Fornecedor.jpg`),
       tempCart: [],
     }
   },

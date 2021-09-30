@@ -5,7 +5,7 @@
         <div class="card-title">
           <div class="d-none mobile-only-block" style="text-align: center;">
             <router-link :to="{name: 'home'}">
-              <img src="@/assets/images/mf-login.png" style="max-width: 250px; margin-bottom: 20px;" alt />
+              <img src="~/assets/images/mf-login.png" style="max-width: 250px; margin-bottom: 20px;" alt />
             </router-link>
           </div>
           <h4 class="mb-0">Página não encontrada</h4>

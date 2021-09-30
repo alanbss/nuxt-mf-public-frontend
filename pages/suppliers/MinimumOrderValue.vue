@@ -48,7 +48,7 @@
 </template>
 
 <script>
-import SupplierConfigurationService from "@/resources/suppliers/services/supplierConfigurations";
+import SupplierConfigurationService from "~/components/suppliers/services/supplierConfigurations";
 import { Money } from "v-money";
 
 export default {

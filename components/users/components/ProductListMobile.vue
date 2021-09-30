@@ -113,8 +113,8 @@
 
 <script>
 import { mapState, mapActions } from "vuex";
-import AddAllButton from "@/resources/products/components/AddAllButton";
-import ProductCard from "@/resources/products/components/ProductCard";
+import AddAllButton from "~/components/products/components/AddAllButton";
+import ProductCard from "~/components/products/components/ProductCard";
 import VueContext from 'vue-context';
 import 'vue-context/dist/css/vue-context.css';
 

@@ -1,7 +1,7 @@
 import * as types from './mutations-types'
 import router from '@/router'
-import SupplierConfigurationsService from '@/resources/suppliers/services/supplierConfigurations'
-import SupplierService from '@/resources/suppliers/services/index'
+import SupplierConfigurationsService from '~/components/suppliers/services/supplierConfigurations'
+import SupplierService from '~/components/suppliers/services/index'
 
 export default {
   getSupplier: async ({ commit }) => {

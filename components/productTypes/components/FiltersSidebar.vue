@@ -6,7 +6,7 @@
 
 <script>
 import { mapState, mapActions } from "vuex";
-import ProductsFilterVertical from "@/resources/productTypes/components/ProductsFilterVertical";
+import ProductsFilterVertical from "~/components/productTypes/components/ProductsFilterVertical";
 
 export default {
   name: "FiltersSidebar",

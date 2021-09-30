@@ -67,8 +67,8 @@
 <script>
 import { mapState, mapActions } from "vuex";
 import priceFormatter from "@/mixins/priceFormatter";
-import VQuotationProductsReview from "@/resources/quotations/Components/VQuotationProductsReview";
-import VDropdownInfo from "@/resources/suppliers/components/VDropdownInfo";
+import VQuotationProductsReview from "~/components/quotations/Components/VQuotationProductsReview";
+import VDropdownInfo from "~/components/suppliers/components/VDropdownInfo";
 
 export default {
   data() {

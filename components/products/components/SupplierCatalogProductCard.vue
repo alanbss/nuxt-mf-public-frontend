@@ -56,10 +56,10 @@
 <script>
 import { mapActions } from "vuex";
 
-import VProductCardTitle from "@/resources/products/components/VProductCardTitle";
-import VQuoteProductDescription from "@/resources/products/components/VQuoteProductDescription";
-import VSecondaryCharacteristics from "@/resources/products/components/VSecondaryCharacteristics";
-import ProductInfoModal from "@/resources/products/components/ProductInfoModal";
+import VProductCardTitle from "~/components/products/components/VProductCardTitle";
+import VQuoteProductDescription from "~/components/products/components/VQuoteProductDescription";
+import VSecondaryCharacteristics from "~/components/products/components/VSecondaryCharacteristics";
+import ProductInfoModal from "~/components/products/components/ProductInfoModal";
 import VClamp from "vue-clamp";
 
 export default {
@@ -69,7 +69,7 @@ export default {
       openPopup: false,
       adding: false,
       removing: false,
-      noImageSrc: require(`@/assets/images/Produto-sem-imagem-Meu-Fornecedor.jpg`)
+      noImageSrc: require(`~/assets/images/Produto-sem-imagem-Meu-Fornecedor.jpg`)
     }
   },
   created() {

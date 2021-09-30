@@ -4,7 +4,7 @@
       <div class="row m-0 pb-2">
         <div class="col-3 m-0 p-0 text-center">
           <img v-if="supplier.picture" :src="supplier.picture" alt="*" width="auto" height="45">
-          <img v-else :src="require(`@/assets/images/avatar-default.png`)" alt="*" width="auto" height="45">
+          <img v-else :src="require(`~/assets/images/avatar-default.png`)" alt="*" width="auto" height="45">
         </div>
         <div class="col-9 m-0 p-0">
           <h3 class="m-0 font-weight-bold">{{ supplier.user.name }}</h3>

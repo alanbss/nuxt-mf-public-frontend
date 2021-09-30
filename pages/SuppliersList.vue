@@ -10,7 +10,7 @@
 </template>
 
 <script>
-import SupplierService from "@/resources/suppliers/services/index";
+import SupplierService from "~/components/suppliers/services/index";
 export default {
   data() {
     return {

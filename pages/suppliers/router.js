@@ -6,7 +6,7 @@ const routes = [
   {
     path: "/condicoes-de-atendimento",
     name: "service-conditions",
-    component: () => import("@/resources/suppliers/views/ServiceConditions.vue"),
+    component: () => import("~/components/suppliers/views/ServiceConditions.vue"),
     meta: {
       auth: true
     },
@@ -17,7 +17,7 @@ const routes = [
   {
     path: "/tipos-de-cliente",
     name: "client-types",
-    component: () => import("@/resources/suppliers/views/ClientTypes.vue"),
+    component: () => import("~/components/suppliers/views/ClientTypes.vue"),
     meta: {
       auth: true
     },
@@ -28,7 +28,7 @@ const routes = [
   {
     path: "/valor-minimo-de-pedido",
     name: "minimum-order-value",
-    component: () => import("@/resources/suppliers/views/MinimumOrderValue.vue"),
+    component: () => import("~/components/suppliers/views/MinimumOrderValue.vue"),
     meta: {
       auth: true
     },
@@ -39,7 +39,7 @@ const routes = [
   {
     path: "/prazo-de-entrega",
     name: "delivery-conditions",
-    component: () => import("@/resources/suppliers/views/DeliveryConditions.vue"),
+    component: () => import("~/components/suppliers/views/DeliveryConditions.vue"),
     meta: {
       auth: true
     },
@@ -50,7 +50,7 @@ const routes = [
   {
     path: "/area-de-atendimento",
     name: "delivery-areas",
-    component: () => import("@/resources/suppliers/views/DeliveryAreas.vue"),
+    component: () => import("~/components/suppliers/views/DeliveryAreas.vue"),
     meta: {
       auth: true
     },
@@ -61,7 +61,7 @@ const routes = [
   {
     path: "/tipos-de-pagamento",
     name: "payment-methods",
-    component: () => import("@/resources/suppliers/views/PaymentMethods.vue"),
+    component: () => import("~/components/suppliers/views/PaymentMethods.vue"),
     meta: {
       auth: true
     },
@@ -72,7 +72,7 @@ const routes = [
   {
     path: "/cotacoes",
     name: "quotation-panel",
-    component: () => import("@/resources/suppliers/views/QuotationPanel.vue"),
+    component: () => import("~/components/suppliers/views/QuotationPanel.vue"),
     meta: {
       auth: true,
       hideFooter: true,
@@ -95,7 +95,7 @@ const routes = [
   {
     path: "/responder-cotacao/:quotationId",
     name: "reply-quotation",
-    component: () => import("@/resources/suppliers/views/ReplyQuotationInfo.vue"),
+    component: () => import("~/components/suppliers/views/ReplyQuotationInfo.vue"),
     meta: {
       auth: true,
       hideFooter: true
@@ -107,7 +107,7 @@ const routes = [
   {
     path: "/incluir-produtos",
     name: "products-empty",
-    component: () => import("@/resources/suppliers/views/ProductsEmpty.vue"),
+    component: () => import("~/components/suppliers/views/ProductsEmpty.vue"),
     meta: {
       auth: true
     },
@@ -126,7 +126,7 @@ const routes = [
   {
     path: "/meu-catalogo",
     name: "my-catalog",
-    component: () => import("@/resources/suppliers/views/Catalog.vue"),
+    component: () => import("~/components/suppliers/views/Catalog.vue"),
     meta: {
       auth: true
     },
@@ -140,7 +140,7 @@ const routes = [
   {
     path: "/precificar",
     name: "pricing",
-    component: () => import("@/resources/suppliers/views/Pricing.vue"),
+    component: () => import("~/components/suppliers/views/Pricing.vue"),
     meta: {
       auth: true,
       pricing: true,
@@ -161,7 +161,7 @@ const routes = [
     path: '/pedido/:quotationId',
     name: 'supplier-order',
     component: () =>
-      import('@/resources/suppliers/views/CheckOrder.vue'),
+      import('~/components/suppliers/views/CheckOrder.vue'),
     meta: {
       hideFooter: true
     },
@@ -171,7 +171,7 @@ const routes = [
     path: '/compra/:orderId',
     name: 'direct-order',
     component: () =>
-      import('@/resources/suppliers/views/CheckDirectOrder.vue'),
+      import('~/components/suppliers/views/CheckDirectOrder.vue'),
     meta: {
       hideFooter: true
     },
@@ -181,7 +181,7 @@ const routes = [
     path: '/fornecedor-em-manutencao',
     name: 'supplier-maintenance',
     component: () =>
-      import('@/resources/suppliers/views/Maintenance.vue'),
+      import('~/components/suppliers/views/Maintenance.vue'),
     meta: {
       hideFooter: true,
       maintenance: true
@@ -191,7 +191,7 @@ const routes = [
     path: '/fornecedor-cancelado',
     name: 'supplier-canceled',
     component: () =>
-      import('@/resources/suppliers/views/Canceled.vue'),
+      import('~/components/suppliers/views/Canceled.vue'),
     meta: {
       hideFooter: true,
       canceled: true

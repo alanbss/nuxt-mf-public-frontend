@@ -125,9 +125,9 @@
 
 <script>
 import { mapState, mapActions } from "vuex";
-import VQuotePanelOC from "@/resources/quotes/Components/VQuotePanelOC";
-import VOrderSupplierFilter from "@/resources/quotations/Components/VOrderSupplierFilter";
-import VDropdownInfo from "@/resources/suppliers/components/VDropdownInfo";
+import VQuotePanelOC from "~/components/quotes/Components/VQuotePanelOC";
+import VOrderSupplierFilter from "~/components/quotations/Components/VOrderSupplierFilter";
+import VDropdownInfo from "~/components/suppliers/components/VDropdownInfo";
 
 export default {
   data() {

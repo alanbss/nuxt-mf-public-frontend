@@ -78,9 +78,9 @@
 <script>
 import { mapActions, mapGetters } from "vuex";
 
-import VProductCardTitle from "@/resources/products/components/VProductCardTitle";
-import VSecondaryCharacteristics from "@/resources/products/components/VSecondaryCharacteristics";
-import ProductInfoModal from "@/resources/products/components/ProductInfoModal";
+import VProductCardTitle from "~/components/products/components/VProductCardTitle";
+import VSecondaryCharacteristics from "~/components/products/components/VSecondaryCharacteristics";
+import ProductInfoModal from "~/components/products/components/ProductInfoModal";
 
 export default {
   name: "ProductCard",
@@ -89,7 +89,7 @@ export default {
       openPopup: false,
       adding: false,
       removing: false,
-      noImageSrc: require(`@/assets/images/Produto-sem-imagem-Meu-Fornecedor.jpg`)
+      noImageSrc: require(`~/assets/images/Produto-sem-imagem-Meu-Fornecedor.jpg`)
     }
   },
   computed: {

@@ -56,7 +56,7 @@
 </template>
 
 <script>
-import VCardServiceCondition from "@/resources/suppliers/components/VCardServiceConditions";
+import VCardServiceCondition from "~/components/suppliers/components/VCardServiceConditions";
 import { mapActions, mapState, mapGetters } from "vuex";
 
 export default {

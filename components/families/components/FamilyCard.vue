@@ -137,9 +137,9 @@
 </style>
 
 <script>
-import CategoryService from "@/resources/categories/services";
-import FamilyService from "@/resources/families/services";
-import ProductTypeService from "@/resources/productTypes/services";
+import CategoryService from "~/components/categories/services";
+import FamilyService from "~/components/families/services";
+import ProductTypeService from "~/components/productTypes/services";
 import VueContext from 'vue-context';
 import 'vue-context/dist/css/vue-context.css';
 import { mapGetters } from "vuex";
@@ -229,13 +229,13 @@ export default {
         if(family.imageUrl)
           return family.imageUrl
         else
-          return require(`@/assets/images/collection_banner.jpg`)
+          return require(`~/assets/images/collection_banner.jpg`)
       } else {
         var found = this.collectionPictures.find(pic => pic.name.toLowerCase() == name.toLowerCase())
         if(found && found.imageUrl)
           return found.imageUrl
         else
-          return require(`@/assets/images/collection_banner.jpg`)
+          return require(`~/assets/images/collection_banner.jpg`)
       }
     },
     chunkedStructure(structure, max, mobile = false) {

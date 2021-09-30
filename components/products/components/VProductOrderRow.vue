@@ -37,7 +37,7 @@
 </template>
 
 <script>
-import cardTitle from "@/resources/products/mixins/cardTitle";
+import cardTitle from "~/components/products/mixins/cardTitle";
 
 export default {
   name: "VProductOrderRow",

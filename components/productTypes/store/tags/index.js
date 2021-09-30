@@ -1,4 +1,4 @@
-import ProducTypeService from '@/resources/productTypes/services/'
+import ProducTypeService from '~/components/productTypes/services/'
 
 const CHANGED_VIEW_TAGS_DIALOG_STATUS = 'CHANGED_VIEW_TAGS_DIALOG_STATUS'
 const SET_TAGS = 'SET_TAGS'

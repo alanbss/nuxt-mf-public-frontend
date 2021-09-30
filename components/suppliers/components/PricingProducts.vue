@@ -28,8 +28,8 @@
 
 <script>
 import { mapState, mapActions } from "vuex";
-import PricingProductCard from "@/resources/products/components/PricingProductCard";
-import DeletePriceModal from "@/resources/suppliers/components/DeletePriceModal";
+import PricingProductCard from "~/components/products/components/PricingProductCard";
+import DeletePriceModal from "~/components/suppliers/components/DeletePriceModal";
 
 export default {
   name: "PricingProducts",

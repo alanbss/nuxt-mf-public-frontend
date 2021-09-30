@@ -49,16 +49,16 @@
 <script>
 // import { mapActions } from "vuex";
 
-import PricingProductExpedition from "@/resources/products/components/PricingProductExpedition";
-import VProductCardTitle from "@/resources/products/components/VProductCardTitle";
-import VSecondaryCharacteristics from "@/resources/products/components/VSecondaryCharacteristics";
+import PricingProductExpedition from "~/components/products/components/PricingProductExpedition";
+import VProductCardTitle from "~/components/products/components/VProductCardTitle";
+import VSecondaryCharacteristics from "~/components/products/components/VSecondaryCharacteristics";
 
 export default {
   name: "PricingProductCard",
   data() {
     return {
       openPhoto: false,
-      noImageSrc: require(`@/assets/images/Produto-sem-imagem-Meu-Fornecedor.jpg`),
+      noImageSrc: require(`~/assets/images/Produto-sem-imagem-Meu-Fornecedor.jpg`),
     }
   },
   computed: {

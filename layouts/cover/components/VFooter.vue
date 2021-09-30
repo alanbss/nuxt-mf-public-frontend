@@ -6,7 +6,7 @@
           <div class="col-lg-7">
             <div class="copyright">
               <a href="javascript:void(0);" @click="scrollToTop()">
-                <img :src="require(`@/assets/images/logo.png`)" alt="" class="float-left mr-4 my-1 d-none d-md-inline">
+                <img :src="require(`~/assets/images/logo.png`)" alt="" class="float-left mr-4 my-1 d-none d-md-inline">
               </a>
               Meu Fornecedor Plataforma Digital LTDA <br>
               CNPJ 28.766.904/0001-41 (Fortaleza/CE) <br>
@@ -30,7 +30,7 @@
   </span>
 </template>
 
-<style scoped src="@/assets/css/cover.css">
+<style scoped src="~/assets/css/cover.css">
 </style>
 
 <script>
