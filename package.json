@@ -1,0 +1,91 @@
+{
+  "name": "nuxt-mf-public-frontend",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "bootstrap": "^4.6.0",
+    "bootstrap-vue": "^2.21.2",
+    "core-js": "^3.15.1",
+    "nuxt": "^2.15.7",
+    "@popperjs/core": "^2.4.4",
+    "@websanova/vue-auth": "^3.2.1-beta",
+    "animate.css": "^4.1.1",
+    "aos": "^3.0.0-beta.6",
+    "axios": "^0.21.1",
+    "boxicons": "^2.0.7",
+    "cpf-cnpj-validator": "^1.0.3",
+    "express": "^4.17.1",
+    "express-sslify": "^1.2.0",
+    "heroku-client": "^3.1.0",
+    "lodash.sortby": "^4.7.0",
+    "lodash.uniqby": "^4.7.0",
+    "material-icons": "^0.3.1",
+    "portal-vue": "^2.1.7",
+    "qs": "^6.9.4",
+    "raygun4js": "^2.22.3",
+    "v-money": "^0.8.1",
+    "v-tooltip": "^2.1.2",
+    "vee-validate": "^2.2.8",
+    "vue": "^2.6.11",
+    "vue-axios": "^2.1.5",
+    "vue-browser-detect-plugin": "^0.1.13",
+    "vue-clamp": "^0.3.0",
+    "vue-clickaway": "^2.2.2",
+    "vue-clipboard2": "^0.3.1",
+    "vue-context": "^6.0.0",
+    "vue-currency-input": "^1.22.3",
+    "vue-custom-scrollbar": "^1.2.0",
+    "vue-dragscroll": "^3.0.0",
+    "vue-form-wizard": "^0.8.4",
+    "vue-gtag": "^1.16.1",
+    "vue-horizontal-scroll": "^0.2.4",
+    "vue-loading-overlay": "^3.4.0",
+    "vue-masonry-css": "^1.0.3",
+    "vue-meta": "^2.4.0",
+    "vue-number-input-spinner": "^2.2.0",
+    "vue-owl-carousel": "^2.0.3",
+    "vue-router": "^3.5.2",
+    "vue-the-mask": "^0.11.1",
+    "vue-toastification": "^1.7.7",
+    "vuesax": "^3.11.17",
+    "vuex": "^3.5.1"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.4.0",
+    "@vue/cli-plugin-eslint": "~4.4.0",
+    "@vue/cli-service": "~4.4.0",
+    "babel-eslint": "^10.1.0",
+    "cypress": "^5.5.0",
+    "cypress-dotenv": "^1.2.2",
+    "dotenv": "^8.2.0",
+    "eslint": "^6.7.2",
+    "eslint-plugin-vue": "^6.2.2",
+    "vue-template-compiler": "^2.6.11",
+    "vue2-collapse": "^1.0.15"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "babel-eslint"
+    },
+    "rules": {}
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}

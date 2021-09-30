@@ -1,0 +1,13 @@
+@import '../vendors/css/vendors.min.css';
+@import './bootstrap.min.css';
+@import './bootstrap-extended.css';
+@import './colors.min.css';
+@import './components.css';
+@import './forms/wizard.min.css';
+@import './style.css';
+@import './vertical-menu.min.css';
+
+@import './extensions/ekko-lightbox.css';
+@import './extensions/toastr.css';
+
+@import './forms/wizard.min.css';

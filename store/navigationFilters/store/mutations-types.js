@@ -1,0 +1,5 @@
+export const SET_CEP = "SET_CEP"
+export const SET_CITY = "SET_CITY"
+export const SET_REGION = "SET_REGION"
+export const SET_ALLOWED = "SET_ALLOWED"
+export const SET_SUPPLIER_SERVES = "SET_SUPPLIER_SERVES"
