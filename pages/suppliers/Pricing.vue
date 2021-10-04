@@ -90,7 +90,7 @@ import VQuotationDeliveryCard from "~/components/quotations/Components/VQuotatio
 import NoPricesModal from "~/components/suppliers/components/NoPricesModal";
 import PricingProductExpedition from "~/components/products/components/PricingProductExpedition";
 import { mapState, mapActions } from "vuex";
-import { bus } from "@/main";
+// import { bus } from "@/main";
 
 export default {
   name: "Pricing",
@@ -312,11 +312,11 @@ export default {
     }, */
     checkSalesUp(){
       this.inSaleCounter++
-      bus.$emit("showSaveTooltip")
+      //bus.$emit("showSaveTooltip")
     },
     checkSalesDown(){
       this.inSaleCounter--
-      bus.$emit("showSaveTooltip")
+      //bus.$emit("showSaveTooltip")
     },
 
     loadAndUpdate() {

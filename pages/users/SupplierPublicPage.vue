@@ -22,8 +22,8 @@
 
 <script>
 import { mapState, mapActions } from "vuex";
-import CatalogStore from "~/components/users/views/CatalogStore";
-import CatalogPublic from "~/components/users/views/CatalogPublic";
+// import CatalogStore from "~/components/users/views/CatalogStore";
+// import CatalogPublic from "~/components/users/views/CatalogPublic";
 
 export default {
   metaInfo() {

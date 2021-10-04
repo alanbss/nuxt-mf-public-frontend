@@ -327,7 +327,7 @@ export default {
     return {
       maxHeight: null,
       quotationsControl: [],
-      notificationSound: new Audio(require(`~/assets/sounds/notification.mp3`)),
+      //notificationSound: new Audio(require(`~/assets/sounds/notification.mp3`)),
       timeouts: []
     };
   },
@@ -386,10 +386,10 @@ export default {
         this.getQuotation({ id: quotationId }).then((response) => {
           if(response.processed && response.supplierType == 'Automático') {
             this.findQuotationControlById(quotationId).status = true
-            this.notificationSound.play()
+            //this.notificationSound.play()
           } else if((response.status == 'Aceita' || response.status == 'Recusada') && response.supplierType == 'Manual') {
             this.findQuotationControlById(quotationId).situation = response.status
-            this.notificationSound.play()
+            //this.notificationSound.play()
           } else
             this.checkStatusTimeout(quotationId)
         })

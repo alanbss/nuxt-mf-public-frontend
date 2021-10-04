@@ -1,7 +1,7 @@
 import actions from './actions'
 import getters from './getters'
 import mutations from './mutations'
-import supplierProductExpeditions from './supplierProductExpeditions/'
+// import supplierProductExpeditions from './supplierProductExpeditions/'
 
 const state = {
   products: [],
@@ -9,9 +9,9 @@ const state = {
   familyProducts: []
 }
 
-const modules = {
-  supplierProductExpeditions
-}
+// const modules = {
+//   supplierProductExpeditions
+// }
 
 export default {
   namespaced: true,
@@ -19,5 +19,5 @@ export default {
   getters,
   actions,
   mutations,
-  modules
+  // modules
 }

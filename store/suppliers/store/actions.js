@@ -1,5 +1,5 @@
 import * as types from './mutations-types'
-import router from '@/router'
+// import router from '@/router'
 import SupplierConfigurationsService from '~/components/suppliers/services/supplierConfigurations'
 import SupplierService from '~/components/suppliers/services/index'
 

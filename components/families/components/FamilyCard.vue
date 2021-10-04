@@ -82,12 +82,12 @@
         </masonry>
         <vue-context ref="menu" style=" min-width:200px">
           <div>
-          
+
           <h6 class="ml-1 mr-1 d-block text-dark" v-if="menuProductTypes.length">
             <i class="feather icon-x float-right"/>
             {{ menuProductTypes[0].categoryName }}
           </h6>
-          
+
           </div>
           <div >
             <div v-for="(chunks, index) in chunkedStructure(menuProductTypes, maxListEntries)" :key="'category-chunks' + index">

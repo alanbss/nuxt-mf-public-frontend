@@ -1,7 +1,7 @@
 import * as types from './mutations-types';
 import viaCep from "@/api/viaCep";
 import SearchRegionService from "@/services/searchRegion";
-import router from '@/router'
+// import router from '@/router'
 
 export default {
   setCep: ({ commit, dispatch }, cep) => {
