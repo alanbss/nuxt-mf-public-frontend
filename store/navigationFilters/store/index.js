@@ -2,7 +2,7 @@ import actions from './actions'
 import getters from './getters'
 import mutations from './mutations'
 
-const state = {
+export const state = () => ({
   // supplierServes: "PJ",
   // // Cep geral de Fortaleza
   // cep: "63575-000",
@@ -22,7 +22,7 @@ const state = {
     uf: null,
   },
   allowed: null,
-}
+})
 
 export default {
   namespaced: true,

@@ -3,7 +3,7 @@ import getters from './getters'
 import mutations from './mutations'
 import configurations from './configurations/index'
 
-const state = {
+export const state = () => ({
   supplier: undefined,
   catalog: undefined,
   supplierStates: [],
@@ -18,7 +18,7 @@ const state = {
   noPriceData: null,
   supplierOfferProducts: [],
   supplierOfferExpeditions: [],
-}
+})
 
 const modules = {
   configurations

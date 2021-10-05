@@ -3,7 +3,7 @@ import getters from './getters'
 import mutations from './mutations'
 import quotationPrices from './quotationPrices/'
 
-const state = {
+export const state = () => ({
   quotation: [],
   deliveryInfo: undefined,
   paymentInfo: undefined,
@@ -12,7 +12,7 @@ const state = {
   quotationCategoriesCollections: [],
   quotationProductTypes: [],
   orders: []
-}
+})
 
 const modules = {
   quotationPrices

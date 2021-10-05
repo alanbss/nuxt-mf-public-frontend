@@ -4,9 +4,9 @@ import mutations from './mutations'
 import products from './products/'
 import contact from './contact/'
 
-const state = {
+export const state = () => ({
   user: null
-}
+})
 
 const modules = {
   products,

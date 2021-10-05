@@ -3,13 +3,15 @@ import ProducTypeService from '~/components/productTypes/services/'
 const CHANGED_VIEW_VOLUMES_DIALOG_STATUS = 'CHANGED_VIEW_VOLUMES_DIALOG_STATUS'
 const SET_VOLUMES = 'SET_VOLUMES'
 
-export default {
-  namespaced: true,
-  state: {
-    volumesDialogShow: false,
-    volumes: []
-  },
-  actions: {
+  export const state = () => ({
+    namespaced: true,
+    state: {
+      volumesDialogShow: false,
+      volumes: []
+    }
+  })
+
+  export default {
     showVolumesDialog: ({ commit }) => {
       commit(CHANGED_VIEW_VOLUMES_DIALOG_STATUS, true)
     },
@@ -31,8 +33,8 @@ export default {
 
       commit(SET_VOLUMES, productTypeVolumes.data)
     }
-  },
-  mutations: {
+  }
+  export const mutations = {
     [CHANGED_VIEW_VOLUMES_DIALOG_STATUS]: (state, clicked) => {
       state.volumesDialogShow = clicked
     },
@@ -40,4 +42,4 @@ export default {
       state.volumes = volumes
     }
   }
-}
+

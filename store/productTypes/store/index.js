@@ -6,7 +6,7 @@ import actions from './actions'
 import getters from './getters'
 import mutations from './mutations'
 
-const state = {
+export const state = () => ({
   products: [],
   filterOptions: {
     productTypeId: null,
@@ -18,7 +18,7 @@ const state = {
       tag_ids: [],
     },
   },
-}
+})
 
 const modules = {
   brands,

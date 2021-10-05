@@ -3,13 +3,14 @@ import ProducTypeService from '~/components/productTypes/services/'
 const CHANGED_VIEW_PROPERTIES_DIALOG_STATUS = 'CHANGED_VIEW_PROPERTIES_DIALOG_STATUS'
 const SET_PROPERTIES = 'SET_PROPERTIES'
 
-export default {
-  namespaced: true,
-  state: {
-    propertiesDialogShow: false,
-    properties: []
-  },
-  actions: {
+  export const state = () => ({
+    namespaced: true,
+    state: {
+      propertiesDialogShow: false,
+      properties: []
+    }
+  })
+  export default {
     showPropertiesDialog: ({ commit }) => {
       commit(CHANGED_VIEW_PROPERTIES_DIALOG_STATUS, true)
     },
@@ -31,8 +32,8 @@ export default {
 
       commit(SET_PROPERTIES, productTypeProperties.data)
     }
-  },
-  mutations: {
+  }
+  export const mutations = {
     [CHANGED_VIEW_PROPERTIES_DIALOG_STATUS]: (state, clicked) => {
       state.propertiesDialogShow = clicked
     },
@@ -40,4 +41,4 @@ export default {
       state.properties = properties
     }
   }
-}
+

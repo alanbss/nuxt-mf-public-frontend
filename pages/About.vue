@@ -1,7 +1,7 @@
 <template>
   <div>
-    <main id="main">
-
+    <client-only>
+      <main id="main">
       <section class="breadcrumbs">
         <div class="container">
           <div class="d-flex justify-content-between align-items-center">
@@ -87,6 +87,7 @@
       </section>
 
     </main>
+    </client-only>
   </div>
 </template>
 

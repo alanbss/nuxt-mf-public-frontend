@@ -2,13 +2,13 @@ import actions from './actions'
 import getters from './getters'
 import mutations from './mutations'
 
-const state = {
+export const state = () => ({
   order: null,
   orderProducts: [],
   orderCategories: [],
   orderExpeditions: [],
   directOrders: []
-}
+})
 
 const modules = {
 

@@ -6,19 +6,20 @@ const CLEAR_PAGINATION_DATA = 'CLEAR_PAGINATION_DATA'
 // Essa store foi criada para ser global e que pode ser usada para paginar
 // qualquer tipo de coleção. Exemplo: Products, ProducTypes, etc.
 
-export default {
-  namespaced: true,
-  state: {
-    currentPage: 1,
-    totalPages: 0,
-    maxPageItems: 0,
-    totalCount: 0,
-    firstLink: '',
-    nextLink: '',
-    lastLink: '',
-    userSelectedPage: ''
-  },
-  actions: {
+  export const state = () => ({
+    namespaced: true,
+    state: {
+      currentPage: 1,
+      totalPages: 0,
+      maxPageItems: 0,
+      totalCount: 0,
+      firstLink: '',
+      nextLink: '',
+      lastLink: '',
+      userSelectedPage: ''
+    }
+  })
+  export default {
     showBrandsDialog: ({ commit }, headers) => {
       commit(SET_RESOURCE_PAGINATION, headers)
     },
@@ -31,8 +32,8 @@ export default {
     clearPagination: ({ commit }) => {
       commit(CLEAR_PAGINATION_DATA)
     },
-  },
-  mutations: {
+  }
+  export const mutations = {
     [SET_USER_CURRENT_PAGE]: (state, pageNumber) => {
       state.currentPage = pageNumber
     },
@@ -76,4 +77,4 @@ export default {
       }
     },
   }
-}
+

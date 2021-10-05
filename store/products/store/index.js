@@ -3,11 +3,11 @@ import getters from './getters'
 import mutations from './mutations'
 // import supplierProductExpeditions from './supplierProductExpeditions/'
 
-const state = {
+export const state = () => ({
   products: [],
   randomProducts: [],
   familyProducts: []
-}
+})
 
 // const modules = {
 //   supplierProductExpeditions
